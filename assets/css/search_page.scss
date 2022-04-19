@@ -1,0 +1,174 @@
+#search_page{
+  font-size: $search_font_size;
+  font-family: $search_font_color;
+  .ais-current-refined-values--link, .ais-geo-search--toggle-label,
+  .ais-hierarchical-menu--link, .ais-menu--link, .ais-price-ranges--link,
+  .ais-refinement-list--label, .ais-star-rating--link, .ais-toggle--label {
+
+  }
+  .ais-current-refined-values--count, .ais-hierarchical-menu--count,
+  .ais-menu--count, .ais-refinement-list--count, .ais-star-rating--count, .ais-toggle--count {
+
+  }
+  .ais-refinement-list--header {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    font-family: $braze-black;
+    color: $search_font_color;
+  }
+  .ais-search-box--input {
+    border-radius: 0;
+    border-color: $navy-bay;
+    box-shadow: 0 1px 1px 0 rgba($navy-bay,.2);
+  }
+  .ais-refinement-list--list {
+    .ais-refinement-list--item {
+      padding: $search_padding/4 $search_padding/4 0px 0px;
+      color: $search_font_color;
+
+
+      .ais-refinement-list--count {
+        color: $search_font_color;
+        border-radius: 5px;
+        padding: 2px 5px;
+      }
+
+    }
+    .ais-refinement-list--item__active {
+      font-family: $braze-black;
+    }
+  }
+  .ais-search-box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .ais-RefinementList-labelText {
+    margin-bottom: 0px;
+    color: $grey-dust;
+  }
+  .ais-stats {
+    opacity: 0.8;
+  }
+  #clear-all {
+    padding: $search_padding $search_padding 0px $search_padding;
+    button {
+        color: #fff;
+        display: inline-block;
+        background: #3369e7;
+        border-radius: 4px;
+        font-size: 12px;
+        text-decoration: none;
+        padding: 4px 8px;
+        &.ais-ClearRefinements-button--disabled {
+          background: #697782;
+        }
+    }
+  }
+  .search_refinement_title {
+    padding: $search_padding 0px 0px $search_padding;
+    font-size: .8em;
+    color: #212123;
+    text-transform: uppercase;
+  }
+  #search_type {
+    padding: 0 $search_padding 0px $search_padding;
+  }
+  #search_category {
+    padding: 0 $search_padding 0px $search_padding;
+  }
+  #search_form {
+    padding: $search_padding $search_padding 0px 0px;
+  }
+  #search_stats {
+    padding: $search_padding $search_padding 0px 0px;
+  }
+  #search_pagination {
+    padding-top: 10px;
+    .ais-Pagination-link {
+      box-shadow: none;
+      border: none;
+      border-radius: 3px;
+      padding: $search_padding/2 10px;
+      color: #23263bcc;
+      &:hover {
+        background-image:linear-gradient(#3accddcc,#3accddcc);
+        text-decoration: none;
+      }
+    }
+    .ais-Pagination-item {
+        padding: 3px;
+    }
+    .ais-Pagination-item--selected {
+      .ais-Pagination-link {
+        background-image:linear-gradient(#3accddcc,#3accddcc);
+      }
+    }
+    .ais-Pagination-item--disable {
+      .ais-Pagination-link {
+        background-color: transparent;
+      }
+    }
+  }
+
+
+  .algolia-docsearch-footer {
+      height: 30px;
+      font-size: 0;
+      line-height: 0;
+  }
+  .algolia-docsearch-footer--logo {
+      background-image: url(#{$base_url}/assets/img/algolia.svg);
+      background-repeat: no-repeat;
+      background-position: 100%;
+      overflow: hidden;
+      text-indent: -9000px;
+      padding: 0!important;
+      width: 150px;
+      height: 100%;
+      display: block;
+
+  }
+  .ais-Hits-item, .ais-InfiniteHits-item {
+    padding: 0px;
+    border-style: none;
+    box-shadow: none;
+  }
+  .hit {
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: inherit;
+      }
+    }
+    &:hover {
+      background-color: $grey-athens;
+    }
+    .hit-name {
+      font-family: $braze-medium;
+      display: inline-block;
+      color: $navy-bay;
+    }
+    .hit-subname {
+      display: inline-block;
+    }
+    .hit-category {
+      display: inline-block;
+    }
+    .hit-description{
+      color: $grey-dust;
+      font-family: $braze-regular;
+      em {
+        color: $search_font_color;
+        font-family: $braze-black;
+      }
+    }
+    .hit-content {
+      padding: $search_padding/4;
+      margin-bottom: $search_padding/2;
+    }
+  }
+
+}
