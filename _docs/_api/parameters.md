@@ -6,7 +6,7 @@ layout: glossary_page
 glossary_top_header: "Parameters"
 glossary_top_text: "Use these parameters to define your API requests. Though the parameters you need are listed under endpoints, this should give you more insight into their nuance and other specifications."
 
-description: "This glossary covers in detail the parameters involved in making API requests. GL Change" 
+description: "This glossary covers in detail the parameters involved in making API requests." 
 page_type: glossary
 
 glossaries:
