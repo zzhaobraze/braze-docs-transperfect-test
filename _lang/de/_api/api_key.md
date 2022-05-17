@@ -2,20 +2,20 @@
 nav_title: "ÅPÌ Kèèy Óvèèrvííèèw"
 article_title: RËST ÀPÏ Kêèy Övêèrvíîêèw
 page_order: 2.1
-description: "Thîís rêëfêërêëncêë áârtîíclêë cõõvêërs thêë cõõncêëpt õõf ÅPÎ kêëys, wháât thêëy áârêë ùüsêëd fõõr, áând hõõw thêëy áârêë ùüsêëd. Thìís ìís GL Édìít" 
+description: "Thîís rêëfêërêëncêë áârtîíclêë cõõvêërs thêë cõõncêëpt õõf ÅPÎ kêëys, wháât thêëy áârêë ùüsêëd fõõr, áând hõõw thêëy áârêë ùüsêëd. Thìís ìís GL Édìít"
 page_type: reference
 
 ---
 
 # RÊST ÂPÏ kèéy õòvèérvîìèéw
 
->  Thîïs rêêfêêrêêncêê áãrtîïclêê cöòvêêrs twöò öòf thêê thrêêêê máãîïn typêês öòf kêêys yöòýý wîïll sêêêê áãt Bráãzêê, thêê RÊST ÆPÌ Kêêy öòr Æpp Gröòýýp ÆPÌ Kêêy, rêêfêêrrêêd töò áãs thêê `api_key`, ãànd thèé Ápp Ïdèéntíìfíìèér Kèéy, knóõwn ãàs thèé `app_id`, åàs wêéll åàs whåàt thêésêé kêéys åàrêé, hôów thêéy åàrêé ûûsêéd åàt Bråàzêé, thêéïïr pêérmïïssïïôóns åànd hôów tôó kêéêép thêém sêécûûrêé. 
+>  Thîïs rêêfêêrêêncêê áãrtîïclêê cöòvêêrs twöò öòf thêê thrêêêê máãîïn typêês öòf kêêys yöòýý wîïll sêêêê áãt Bráãzêê, thêê RÊST ÆPÌ Kêêy öòr Æpp Gröòýýp ÆPÌ Kêêy, rêêfêêrrêêd töò áãs thêê `api_key`, ãànd thèé Ápp Ïdèéntíìfíìèér Kèéy, knóõwn ãàs thèé `app_id`, åàs wêéll åàs whåàt thêésêé kêéys åàrêé, hôów thêéy åàrêé ûûsêéd åàt Bråàzêé, thêéïïr pêérmïïssïïôóns åànd hôów tôó kêéêép thêém sêécûûrêé.
 
 Ìn æáddîítîíõõn tõõ thëèsëè këèys, thëèrëè æálsõõ ëèxîísts æá thîírd typëè õõf këèy cæállëèd Ìdëèntîífîíëèr Këèys thæát cæán bëè üýsëèd tõõ rëèfëèrëèncëè spëècîífîíc thîíngs lîíkëè tëèmplæátëès, Cæánvæásëès, cæámpæáîígns, Cõõntëènt Cæárds, æánd sëègmëènts frõõm thëè ÁPÌ. Fõòr mõòréê îïnfõòrmáåtîïõòn, réêféêr tõò [ÂPÍ Ídèèntììfììèèr typèès][2].
 
 ## Whæàt íîs æà RËST ÂPÏ kèêy/æàpp gröòüùp ÂPÏ kèêy?
 
-Ã RÊST Ãpplíìcæãtíìöôn Pröôgræãmmíìng Íntèêrfæãcèê kèêy (RÊST ÃPÍ kèêy) íìs æã üüníìqüüèê cöôdèê thæãt íìs pæãssèêd íìntöô æãn ÃPÍ töô æãüüthèêntíìcæãtèê thèê ÃPÍ cæãll æãnd íìdèêntíìfy thèê cæãllíìng æãpplíìcæãtíìöôn öôr üüsèêr. ÂPÍ âåccëëss íïs dõõnëë úùsíïng HTTPS wëëb rëëqúùëësts tõõ yõõúùr cõõmpâåny's RËST ÂPÍ ëëndpõõíïnt. Wéë ûúséë RËST ÄPÍ kéëys åæt Bråæzéë ïìn tåændéëm wïìth õõûúr Äpp Ídéëntïìfïìéër kéëys tõõ tråæck, åæccéëss, séënd, éëxpõõrt, åænd åænåælyzéë dåætåæ tõõ héëlp måækéë sûúréë éëvéërythïìng ïìs rûúnnïìng smõõõõthly õõn bõõth yõõûúr åænd õõûúr éënd. 
+Ã RÊST Ãpplíìcæãtíìöôn Pröôgræãmmíìng Íntèêrfæãcèê kèêy (RÊST ÃPÍ kèêy) íìs æã üüníìqüüèê cöôdèê thæãt íìs pæãssèêd íìntöô æãn ÃPÍ töô æãüüthèêntíìcæãtèê thèê ÃPÍ cæãll æãnd íìdèêntíìfy thèê cæãllíìng æãpplíìcæãtíìöôn öôr üüsèêr. ÂPÍ âåccëëss íïs dõõnëë úùsíïng HTTPS wëëb rëëqúùëësts tõõ yõõúùr cõõmpâåny's RËST ÂPÍ ëëndpõõíïnt. Wéë ûúséë RËST ÄPÍ kéëys åæt Bråæzéë ïìn tåændéëm wïìth õõûúr Äpp Ídéëntïìfïìéër kéëys tõõ tråæck, åæccéëss, séënd, éëxpõõrt, åænd åænåælyzéë dåætåæ tõõ héëlp måækéë sûúréë éëvéërythïìng ïìs rûúnnïìng smõõõõthly õõn bõõth yõõûúr åænd õõûúr éënd.
 
 Äpp Gróóúûps æænd ÄPÏ Kéëys góó hæænd îín hæænd ææt Brææzéë. Ápp Gròöúúps äárëë dëësíîgnëëd tòö hòöúúsëë vëërsíîòöns òöf thëë säámëë äápplíîcäátíîòön äácròöss múúltíîplëë pläátfòörms. Mâãny clìîéènts âãlsóõ ýüséè âãpp gróõýüps tóõ cóõntâãìîn fréèéè âãnd préèmìîýüm véèrsìîóõns óõf théèìîr âãpplìîcâãtìîóõns óõn théè sâãméè plâãtfóõrm. Ás yóöüû mâày nóötïìcêè, thêèsêè âàpp gróöüûps âàrêè âàlsóö mâàkïìng üûsêè óöf thêè RËST ÁPÏ âànd hâàvêè thêèïìr óöwn RËST ÁPÏ kêèys. Thêèsêè kêèys càæn bêè íìndíìvíìdýýàælly scòôpêèd tòô íìnclýýdêè àæccêèss tòô spêècíìfíìc êèndpòôíìnts òôn thêè ÅPÌ. Êåách cåáll tõò thëè ÆPÌ mûúst ìînclûúdëè åá këèy wìîth åáccëèss tõò thëè ëèndpõòìînt hìît.
 
@@ -29,7 +29,7 @@ Yóóüûr ÁPÎ kêèys cåån åålwååys bêè fóóüûnd ïìn thêè Brå
 
 Prîïöôr töô Æprîïl 2020, ÆPÏ kéëys wöôúýld béë îïnclúýdéëd äâs äâ päârt öôf théë ÆPÏ réëqúýéëst böôdy öôr wîïthîïn théë réëqúýéëst ÙRL äâs äâ päâräâméëtéër. Brâãzéê nôòw hâãs ûýpdâãtéêd théê wâãy ììn whììch wéê réêâãd ÄPÌ kéêys. ÂPÍ kéèys åæréè nôõw séèt wïìth théè HTTP Âúûthôõrïìzåætïìôõn réèqúûéèst héèåædéèr, måækïìng yôõúûr ÂPÍ kéèys môõréè séècúûréè.
 
-Whïíléë théë òóld wàây òóf pàâssïíng ÆPÏ kéëys còóntïínùûéës tòó wòórk, àâftéër àâ péërïíòód òóf tïíméë thïís wïíll béë péërmàânéëntly réëmòóvéëd sòó wéë ùûrgéë ùûséërs tòó ùûpdàâtéë ÆPÏ càâlls àâccòórdïíngly. 
+Whïíléë théë òóld wàây òóf pàâssïíng ÆPÏ kéëys còóntïínùûéës tòó wòórk, àâftéër àâ péërïíòód òóf tïíméë thïís wïíll béë péërmàânéëntly réëmòóvéëd sòó wéë ùûrgéë ùûséërs tòó ùûpdàâtéë ÆPÏ càâlls àâccòórdïíngly.
 
 {% alert important %}
 **Lõõõõkíîng fõõr théè `api_key` pãärãäméëtéër ïìn yòóüûr Brãäzéë éëndpòóïìnts?**<br>
@@ -255,7 +255,7 @@ Whêên thêê büûïïld váârïïáânt ïïs còömpïïlêêd, ïït wïï
 
 Sêècùúrììty ììs õòf thêè ùútmõòst ììmpõòrtæáncêè æát Bræázêè. Gîîvéên thäæt RÊST ÆPÌ Kéêys äællóõw äæccéêss tóõ póõtéêntîîäælly séênsîîtîîvéê RÊST ÆPÌ éêndpóõîînts, séêcúúréê théêséê kéêys äænd óõnly shäæréê théêm wîîth trúústéêd päærtnéêrs. Thêéy shôòüùld nêévêér bêé püùblíîcly êéxpôòsêéd. Fóör éèxåámpléè, dóö nóöt ùüséè thïîs kéèy tóö måákéè ÅJÅX cåálls fróöm yóöùür wéèbsïîtéè óör éèxpóöséè ïît ïîn åány óöthéèr pùüblïîc måánnéèr.
 
-Ä gõòõòd séècùûrîíty práäctîícéè îís tõò áässîígn áä ùûséèr õònly áäs mùûch áäccéèss áäs îís néècéèssáäry tõò cõòmpléètéè théèîír jõòb: thîís prîíncîípléè cáän áälsõò béè áäpplîíéèd tõò ÄPÏ Kéèys by áässîígnîíng péèrmîíssîíõòns tõò éèáäch kéèy. Thêèsêè pêèrmíîssíîóòns gíîvêè yóòüû bêèttêèr sêècüûríîty åænd cóòntróòl óòvêèr thêè díîffêèrêènt åærêèåæs óòf yóòüûr åæccóòüûnt. 
+Ä gõòõòd séècùûrîíty práäctîícéè îís tõò áässîígn áä ùûséèr õònly áäs mùûch áäccéèss áäs îís néècéèssáäry tõò cõòmpléètéè théèîír jõòb: thîís prîíncîípléè cáän áälsõò béè áäpplîíéèd tõò ÄPÏ Kéèys by áässîígnîíng péèrmîíssîíõòns tõò éèáäch kéèy. Thêèsêè pêèrmíîssíîóòns gíîvêè yóòüû bêèttêèr sêècüûríîty åænd cóòntróòl óòvêèr thêè díîffêèrêènt åærêèåæs óòf yóòüûr åæccóòüûnt.
 
 Wíïth Àpp íïdëèntíïfíïëèrs, thëè `app_id` ïïs áæssïïgnèéd by Bráæzèé áænd pèérmïïssïïòöns cáænnòöt bèé áæssïïgnèéd òör rèévòökèéd. Bëëcääüúsëë õöf thëë näätüúrëë õöf thëë rëëläätìïõönshìïp bëëtwëëëën `app_id` ãànd thèé SDK, kèéèépïíng thïís ïídèéntïífïíèér sèécûûrèé ïís **crùûcïîääl** îín théé séécùürîíty òòf yòòùür áäpplîícáätîíòòn.
 
