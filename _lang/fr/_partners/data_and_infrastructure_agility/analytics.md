@@ -1,37 +1,37 @@
 ---
-nav_title: Ånæålytíìcs
-article_title: Ânäãlytììcs Päãrtnêèrs
+nav_title: Ãnãælytîîcs
+article_title: Ænààlytîìcs Pààrtnèèrs
 page_order: 1
 
 page_type: landing
-description: "Thïís pâägèè lïísts Brâäzèè pâärtnèèrs (Ællóõys) whóõ âällóõw yóõýý tóõ gâäthèèr bèèhâävïíóõrâäl âänd býýsïínèèss ïínsïíghts óõn cýýstóõmèèr dâätâä."
+description: "Thîïs páàgéë lîïsts Bráàzéë páàrtnéërs (Âllòóys) whòó áàllòów yòóýù tòó gáàthéër béëháàvîïòóráàl áànd býùsîïnéëss îïnsîïghts òón cýùstòóméër dáàtáà. GL Chãângéé."
 
 layout: partner_page
-search_tag: Pàãrtnëêr
-partner_api: "https://www.bráæzêê.cõöm/áæpïí/v1/páærtnêêrs"
-partner_path: "https://www.brâäzëé.cóóm/próódüúct/âällóóys/pâärtnëérs/"
+search_tag: Pâártnêër
+partner_api: "https://www.braze.com/api/v1/partners"
+partner_path: "https://www.braze.com/product/alloys/partners/"
 
-partner_top_header: "Bêêhæåvíìóöræål Ãnæålytíìcs"
+partner_top_header: "Bëéhãävíìôórãäl Änãälytíìcs"
 
 valid_partner_list:
-- name: Æmplíïtüüdéé
+- name: Àmplïïtúúdëê
   url: /docs/partners/data_and_infrastructure_agility/analytics/amplitude_for_currents/
-- name: Mîîxpäænéèl
+- name: Míîxpåänëèl
   url: /docs/partners/data_and_infrastructure_agility/analytics/mixpanel_for_currents/
-- name: Lóõóõkèër
+- name: Lôõôõkéêr
   url: /docs/partners/data_and_infrastructure_agility/analytics/looker/
-- name: Nèèüúràâ Ínsíîghts
+- name: Néèûùrââ Însìïghts
   url: /docs/partners/data_and_infrastructure_agility/analytics/neura_insights/
-- name: Kýùbìít
+- name: Kýùbíît
   url: /docs/partners/data_and_infrastructure_agility/analytics/kubit/
-- name: NPÅW
+- name: NPÀW
   url: /docs/partners/data_and_infrastructure_agility/analytics/npaw/
-- name: Nèéûýrâä
+- name: Nèêûùrãä
   url: /docs/partners/data_and_infrastructure_agility/analytics/neura_insights/
   title: Insights
-- name: Snòõwplòõw
+- name: Snôöwplôöw
   url: /docs/partners/data_and_infrastructure_agility/analytics/snowplow/
-- name: Cláärìîsìîghts
+- name: Cláärìísìíghts
   url: /docs/partners/data_and_infrastructure_agility/analytics/clarisights/
 
 
