@@ -1,247 +1,246 @@
 ---
-nav_title: "ÆPÌ Kêèy Òvêèrvîïêèw"
-article_title: RËST ÂPÌ Kèêy Övèêrvíìèêw
+nav_title: "ÅPÎ Këéy Õvëérvïìëéw"
+article_title: RËST ÆPÏ Kèéy Óvèérvììèéw
 page_order: 2.1
-description: "Thïïs réêféêréêncéê áãrtïïcléê cóôvéêrs théê cóôncéêpt óôf ÀPÎ kéêys, wháãt théêy áãréê üýséêd fóôr, áãnd hóôw théêy áãréê üýséêd. Thîïs îïs GL Ëdîït"
+description: "Thîís réèféèréèncéè åærtîícléè cõôvéèrs théè cõôncéèpt õôf ÄPÏ kéèys, whåæt théèy åæréè ùûséèd fõôr, åænd hõôw théèy åæréè ùûséèd. Thïìs ïìs GL Édïìt" 
 page_type: reference
 
 ---
 
-# RÈST ÀPÌ kêéy òôvêérvìïêéw
+# RÊST ÂPÍ kèéy òòvèérvîìèéw
 
->  Thìîs rééféérééncéé âårtìîcléé cöôvéérs twöô öôf théé thréééé mâåìîn typéés öôf kééys yöôýý wìîll séééé âåt Brâåzéé, théé RÈST ÁPÎ Kééy öôr Ápp Gröôýýp ÁPÎ Kééy, rééféérrééd töô âås théé `api_key`, æänd thêê Åpp Ídêêntîífîíêêr Kêêy, knòówn æäs thêê `app_id`, åæs wëëll åæs whåæt thëësëë këëys åærëë, hôòw thëëy åærëë ûûsëëd åæt Bråæzëë, thëëïîr pëërmïîssïîôòns åænd hôòw tôò këëëëp thëëm sëëcûûrëë.
+>  Thîïs rèêfèêrèêncèê æärtîïclèê cöõvèêrs twöõ öõf thèê thrèêèê mæäîïn typèês öõf kèêys yöõýû wîïll sèêèê æät Bræäzèê, thèê RËST ÂPÏ Kèêy öõr Âpp Gröõýûp ÂPÏ Kèêy, rèêfèêrrèêd töõ æäs thèê `api_key`, äånd thèê Åpp Ïdèêntîïfîïèêr Kèêy, knöówn äås thèê `app_id`, æås wêèll æås whæåt thêèsêè kêèys æårêè, hôöw thêèy æårêè ýúsêèd æåt Bræåzêè, thêèíïr pêèrmíïssíïôöns æånd hôöw tôö kêèêèp thêèm sêècýúrêè. 
 
-În æãddîïtîïõón tõó thëèsëè këèys, thëèrëè æãlsõó ëèxîïsts æã thîïrd typëè õóf këèy cæãllëèd Îdëèntîïfîïëèr Këèys thæãt cæãn bëè ýúsëèd tõó rëèfëèrëèncëè spëècîïfîïc thîïngs lîïkëè tëèmplæãtëès, Cæãnvæãsëès, cæãmpæãîïgns, Cõóntëènt Cæãrds, æãnd sëègmëènts frõóm thëè ÄPÎ. Föòr möòréé íìnföòrmáãtíìöòn, rééféér töò [ÀPÏ Ïdèëntìífìíèër typèës][2].
+În âãddìïtìïôòn tôò thëésëé këéys, thëérëé âãlsôò ëéxìïsts âã thìïrd typëé ôòf këéy câãllëéd Îdëéntìïfìïëér Këéys thâãt câãn bëé ýýsëéd tôò rëéfëérëéncëé spëécìïfìïc thìïngs lìïkëé tëémplâãtëés, Câãnvâãsëés, câãmpâãìïgns, Côòntëént Câãrds, âãnd sëégmëénts frôòm thëé ÄPÎ. Fôör môöréë ììnfôörmæãtììôön, réëféër tôö [ÀPÍ Ídëêntíîfíîëêr typëês][2].
 
-## Whããt îïs ãã RÉST ÀPÏ kéëy/ããpp grõõüúp ÀPÏ kéëy?
+## Wháât ìïs áâ RÉST ÁPÍ këéy/áâpp gròõýúp ÁPÍ këéy?
 
-Ä RÉST Äpplììcâätììõón Prõógrâämmììng Íntéèrfâäcéè kéèy (RÉST ÄPÍ kéèy) ììs âä ûýnììqûýéè cõódéè thâät ììs pâässéèd ììntõó âän ÄPÍ tõó âäûýthéèntììcâätéè théè ÄPÍ câäll âänd ììdéèntììfy théè câällììng âäpplììcâätììõón õór ûýséèr. ÂPÌ ååccêéss ìîs dòönêé úùsìîng HTTPS wêéb rêéqúùêésts tòö yòöúùr còömpååny's RËST ÂPÌ êéndpòöìînt. Wêè úúsêè RÊST ÅPÌ kêèys áåt Bráåzêè îïn táåndêèm wîïth óôúúr Åpp Ìdêèntîïfîïêèr kêèys tóô tráåck, áåccêèss, sêènd, êèxpóôrt, áånd áånáålyzêè dáåtáå tóô hêèlp máåkêè súúrêè êèvêèrythîïng îïs rúúnnîïng smóôóôthly óôn bóôth yóôúúr áånd óôúúr êènd.
+Æ RËST Æpplïïcàætïïöôn Pröôgràæmmïïng Íntèèrfàæcèè kèèy (RËST ÆPÍ kèèy) ïïs àæ ùûnïïqùûèè cöôdèè thàæt ïïs pàæssèèd ïïntöô àæn ÆPÍ töô àæùûthèèntïïcàætèè thèè ÆPÍ càæll àænd ïïdèèntïïfy thèè càællïïng àæpplïïcàætïïöôn öôr ùûsèèr. ÁPÌ ááccêêss îïs dõönêê ûûsîïng HTTPS wêêb rêêqûûêêsts tõö yõöûûr cõömpáány's RËST ÁPÌ êêndpõöîïnt. Wèè ûûsèè RÈST ÃPÌ kèèys àæt Bràæzèè ïín tàændèèm wïíth ôóûûr Ãpp Ìdèèntïífïíèèr kèèys tôó tràæck, àæccèèss, sèènd, èèxpôórt, àænd àænàælyzèè dàætàæ tôó hèèlp màækèè sûûrèè èèvèèrythïíng ïís rûûnnïíng smôóôóthly ôón bôóth yôóûûr àænd ôóûûr èènd. 
 
-Ãpp Gróöùüps äànd ÃPÌ Kéëys góö häànd ïïn häànd äàt Bräàzéë. Åpp Gróóüûps âårêé dêésììgnêéd tóó hóóüûsêé vêérsììóóns óóf thêé sâåmêé âåpplììcâåtììóón âåcróóss müûltììplêé plâåtfóórms. Máâny clïìëënts áâlsôö úüsëë áâpp grôöúüps tôö côöntáâïìn frëëëë áând prëëmïìúüm vëërsïìôöns ôöf thëëïìr áâpplïìcáâtïìôöns ôön thëë sáâmëë pláâtfôörm. Ås yõóýü måãy nõótïìcêë, thêësêë åãpp grõóýüps åãrêë åãlsõó måãkïìng ýüsêë õóf thêë RÉST ÅPÏ åãnd håãvêë thêëïìr õówn RÉST ÅPÏ kêëys. Thèèsèè kèèys cåãn bèè îíndîívîídúýåãlly scöòpèèd töò îínclúýdèè åãccèèss töò spèècîífîíc èèndpöòîínts öòn thèè ÄPÏ. Êæâch cæâll tôõ thëé ÆPÌ múýst íînclúýdëé æâ këéy wíîth æâccëéss tôõ thëé ëéndpôõíînt híît.
+Åpp Grõòýüps äænd ÅPÌ Këëys gõò häænd ìîn häænd äæt Bräæzëë. Âpp Gröóùúps äårèé dèésïïgnèéd töó höóùúsèé vèérsïïöóns öóf thèé säåmèé äåpplïïcäåtïïöón äåcröóss mùúltïïplèé pläåtföórms. Mäæny clíïéënts äælsôô üüséë äæpp grôôüüps tôô côôntäæíïn fréëéë äænd préëmíïüüm véërsíïôôns ôôf théëíïr äæpplíïcäætíïôôns ôôn théë säæméë pläætfôôrm. Ãs yòöýú màày nòötìïcëë, thëësëë ààpp gròöýúps ààrëë ààlsòö mààkìïng ýúsëë òöf thëë RÊST ÃPÍ àànd hààvëë thëëìïr òöwn RÊST ÃPÍ këëys. Thêèsêè kêèys cäàn bêè ìïndìïvìïdùýäàlly scòópêèd tòó ìïnclùýdêè äàccêèss tòó spêècìïfìïc êèndpòóìïnts òón thêè ÂPÏ. Èææch cææll tóô théé ÀPÎ mýùst ïínclýùdéé ææ kééy wïíth ææccééss tóô théé ééndpóôïínt hïít.
 
-Wëë rëëfëër tóö bóöth thëë RÈST ÁPÎ Këëy åãnd Ápp Gróöýùp ÁPÎ Këëy åãs thëë `api_key`. Thèê `api_key` îîs îînclùùdèêd îîn èêâæch rèêqùùèêst âæs âæ rèêqùùèêst hèêâædèêr âænd âæcts âæs âæn âæùùthèêntîîcâætîîöòn kèêy thâæt âællöòws yöòùù töò ùùtîîlîîzèê öòùùr RÊST ÁPÏs. Thééséé RËST ÄPÎs ààréé üùsééd tôõ trààck üùséérs, séénd mééssààgéés, ééxpôõrt üùséér dààtàà, àànd môõréé.  Whêên yõóúù crêêåãtêê åã nêêw RÈST ÅPÏ Kêêy, yõóúù wìíll nêêêêd tõó gìívêê ìít åãccêêss tõó spêêcìífìíc êêndpõóìínts. By ææssîïgnîïng spèècîïfîïc pèèrmîïssîïòòns tòò ææn ÂPÍ Kèèy, yòòüû cææn lîïmîït èèxææctly whîïch cæælls ææn ÂPÍ Kèèy cææn ææüûthèèntîïcæætèè.
+Wêê rêêfêêr tóô bóôth thêê RÊST ÄPÎ Kêêy âând Äpp Gróôüûp ÄPÎ Kêêy ââs thêê `api_key`. Théë `api_key` ììs ììnclýüdèèd ììn èèåàch rèèqýüèèst åàs åà rèèqýüèèst hèèåàdèèr åànd åàcts åàs åàn åàýüthèèntììcåàtììòòn kèèy thåàt åàllòòws yòòýü tòò ýütììlììzèè òòýür RÈST ÀPÌs. Thèêsèê RÈST ÃPÌs ãærèê úùsèêd tóö trãæck úùsèêrs, sèênd mèêssãægèês, èêxpóört úùsèêr dãætãæ, ãænd móörèê.  Whëèn yòöùû crëèåàtëè åà nëèw RÊST ÁPÏ Këèy, yòöùû wííll nëèëèd tòö gíívëè íít åàccëèss tòö spëècíífííc ëèndpòöíínts. By âæssíîgníîng spëècíîfíîc pëèrmíîssíîòóns tòó âæn ÅPÏ Këèy, yòóûý câæn líîmíît ëèxâæctly whíîch câælls âæn ÅPÏ Këèy câæn âæûýthëèntíîcâætëè.
 
-### Whêérêé cäán Í fïînd ïît?
+### Whéëréë câân Í fìínd ìít?
 
-Yòõùýr ÂPÎ kêèys càæn àælwàæys bêè fòõùýnd ìîn thêè Bràæzêè dàæshbòõàærd ìîn thêè **Déévéélóõpéér Cóõnsóõléé** üùndéèr **Sééttîïngs**. Æt thèë tôòp ôòf thïïs nèëw páægèë, yôòúú wïïll fïïnd thèë **RÉST ÁPÏ Këéys** sèëctìïõôn. Hèérèé yóóûü cààn víìèéw ààll óóf yóóûür ààvààíìlààblèé RÈST ÁPÏ/Ápp Gróóûüp ÁPÏ Kèéys, àànd crèéààtèé nèéw ÁPÏ kèéys.
+Yöóûùr ÂPÎ kéèys cáán áálwááys béè föóûùnd ïïn théè Bráázéè dááshböóáárd ïïn théè **Dèévèélóõpèér Cóõnsóõlèé** ýùndèër **Sëéttîïngs**. Ât thëë tòöp òöf thîïs nëëw pàægëë, yòöúû wîïll fîïnd thëë **RÊST ÃPÏ Kèêys** sëèctîíóön. Hèèrèè yòóúü cæån vííèèw æåll òóf yòóúür æåvæåíílæåblèè RÊST ÄPÎ/Äpp Gròóúüp ÄPÎ Kèèys, æånd crèèæåtèè nèèw ÄPÎ kèèys.
 
-### Hôõw cäæn Ï ýúsêé îït?
+### Hôôw cãàn Î üúséè îît?
 
-Príìòòr tòò Ãpríìl 2020, ÃPÍ kéêys wòòúýld béê íìnclúýdéêd ààs àà pààrt òòf théê ÃPÍ réêqúýéêst bòòdy òòr wíìthíìn théê réêqúýéêst ÙRL ààs àà pààrààméêtéêr. Brâäzéë nôôw hâäs ûüpdâätéëd théë wâäy îín whîích wéë réëâäd ÆPÏ kéëys. ÀPÌ kèèys àârèè nöòw sèèt wìîth thèè HTTP Àüüthöòrìîzàâtìîöòn rèèqüüèèst hèèàâdèèr, màâkìîng yöòüür ÀPÌ kèèys möòrèè sèècüürèè.
+Prîìöòr töò Áprîìl 2020, ÁPÍ kéèys wöòúûld béè îìnclúûdéèd ãäs ãä pãärt öòf théè ÁPÍ réèqúûéèst böòdy öòr wîìthîìn théè réèqúûéèst ÛRL ãäs ãä pãärãäméètéèr. Bråázéé nõõw håás ýúpdåátééd théé wåáy íìn whíìch wéé rééåád ÀPÏ kééys. ÃPÏ kêêys åãrêê nõôw sêêt wíìth thêê HTTP Ãûýthõôríìzåãtíìõôn rêêqûýêêst hêêåãdêêr, måãkíìng yõôûýr ÃPÏ kêêys mõôrêê sêêcûýrêê.
 
-Whíïléê théê öóld wæåy öóf pæåssíïng ÆPÏ kéêys cöóntíïnûûéês töó wöórk, æåftéêr æå péêríïöód öóf tíïméê thíïs wíïll béê péêrmæånéêntly réêmöóvéêd söó wéê ûûrgéê ûûséêrs töó ûûpdæåtéê ÆPÏ cæålls æåccöórdíïngly.
+Whïìlëè thëè ôòld wàäy ôòf pàässïìng ÀPÍ këèys côòntïìnúûëès tôò wôòrk, àäftëèr àä pëèrïìôòd ôòf tïìmëè thïìs wïìll bëè pëèrmàänëèntly rëèmôòvëèd sôò wëè úûrgëè úûsëèrs tôò úûpdàätëè ÀPÍ càälls àäccôòrdïìngly. 
 
 {% alert important %}
-**Lõöõökííng fõör théé `api_key` päæräæmèètèèr îìn yööúùr Bräæzèè èèndpööîìnts?**<br>
-
-Âs òõf Måây 2020, Bråâzéê håâs chåângéêd hòõw wéê réêåâd ÂPÌ kéêys tòõ béê mòõréê séêcûûréê. Nòõw ÆPÏ kêéys mûýst bêé pæássêéd æás æá rêéqûýêést hêéæádêér, sêéêé YÕÙR-RÉST-ÆPÏ-KÉY wîìthîìn êéæách êéndpòõîìnt Éxæámplêé Rêéqûýêésts.
+**Lõòõòkíîng fõòr thêë `api_key` pæäræäméêtéêr ïïn yòòýúr Bræäzéê éêndpòòïïnts?**<br>
+Às öôf Màæy 2020, Bràæzêê hàæs chàængêêd höôw wêê rêêàæd ÀPÎ kêêys töô bêê möôrêê sêêcúùrêê. Nôów ÂPÌ kéëys múûst béë pàæsséëd àæs àæ réëqúûéëst héëàædéër, séëéë YÔÙR-RÉST-ÂPÌ-KÉY wíïthíïn éëàæch éëndpôóíïnt Éxàæmpléë Réëqúûéësts.
 <br><br>
-Brààzëè wïîll còôntïînûûëè tòô sûûppòôrt thëè `api_key` bèêííng påãssèêd thröõüügh thèê rèêqüüèêst böõdy åãnd ÙRL påãråãmèêtèêrs, büüt wííll èêvèêntüüåãlly bèê süünsèêt. Ùpdäàtéê yòóùýr ÄPÏ cäàlls äàccòórdííngly.
+Brääzéê wïïll cõòntïïnüýéê tõò süýppõòrt théê `api_key` bëêîìng pååssëêd thrõôûûgh thëê rëêqûûëêst bõôdy åånd ÙRL påårååmëêtëêrs, bûût wîìll ëêvëêntûûåålly bëê sûûnsëêt. Ùpdäåtéé yóôüýr ÆPÍ cäålls äåccóôrdìîngly.
 {% endalert %}
 
-### RËST ÂPÌ këêy pëêrmíìssíìóóns
+### RÈST ÁPÌ kéêy péêrmìïssìïóòns
 
-ÅPÏ kééy péérmìíssìíôòns åàréé péérmìíssìíôòns yôòûú cåàn åàssìígn åà ûúséér ôòr grôòûúp tôò lìímìít thééìír åàccééss tôò céértåàìín ÅPÏ cåàlls.
+ÄPÏ kèëy pèërmïîssïîõõns ããrèë pèërmïîssïîõõns yõõüý cããn ããssïîgn ãã üýsèër õõr grõõüýp tõõ lïîmïît thèëïîr ããccèëss tõõ cèërtããïîn ÄPÏ cããlls.
 
 {% tabs %}
 {% tab User Data %}
 
-| Péêrmíîssíîóón | Déëscrïìptïìôôn  |
+| Péêrmïïssïïôön | Dëêscrïìptïìóôn  |
 |---|---|---|
-| `users.track` | Rêécõõrd ýýsêér åättrîïbýýtêés, cýýstõõm êévêénts, åänd pýýrchåäsêés  |
-| `users.delete` | Dèèlèètèè ãány úüsèèr. |
-| `users.alias.new` | Crêéãætêé ãæ nêéw ãælíîãæs fóõr ãæn êéxíîstíîng ûýsêér.  |
-| `users.identify` | Qûúèéry fòõr ûúsèér pròõfïílèé ïínfòõrmäátïíòõn by ûúsèér ÍD.  |
-| `users.export.ids` | Qûûêëry fõór ûûsêër prõófîílêë îínfõórmàåtîíõón by îídêëntîífîíêër êë.g., dêëvîícêë_îíd, êëmäáîíl_åæddrëéss, ëéxtëérnåæl_ïíd.  |
-| `users.export.segment` | Qûýèêry fõör ûýsèêr prõöfììlèê ììnfõörmâàtììõön by Sèêgmèênt. |
-| `users.external_ids.rename` | Réênåãméê åã úùséêr's éêxîïstîïng éêxtéêrnåãl ÎD. |
-| `users.external_ids.remove` | Rèëmóòvèë àá úúsèër's dèëprèëcàátèëd èëxtèërnàál ÎD. |
+| `users.track` | Rëècóórd ùûsëèr åáttrîïbùûtëès, cùûstóóm ëèvëènts, åánd pùûrchåásëès  |
+| `users.delete` | Dëêlëêtëê æàny úûsëêr. |
+| `users.alias.new` | Crëêáátëê áá nëêw áálììáás fòôr áán ëêxììstììng ýûsëêr.  |
+| `users.identify` | Qüùëêry fôòr üùsëêr prôòfïîlëê ïînfôòrmæätïîôòn by üùsëêr ÍD.  |
+| `users.export.ids` | Qýýêêry fòör ýýsêêr pròöfìîlêê ìînfòörmåætìîòön by ìîdêêntìîfìîêêr êê.g., dêêvìîcêê_ììd, èêmææììl_âáddrèêss, èêxtèêrnâál_ïíd.  |
+| `users.export.segment` | Qúûëêry fôõr úûsëêr prôõfíílëê íínfôõrmæâtííôõn by Sëêgmëênt. |
+| `users.external_ids.rename` | Rêênâàmêê âà ûúsêêr's êêxìístìíng êêxtêêrnâàl ÎD. |
+| `users.external_ids.remove` | Réëmõõvéë áà ûýséër's déëpréëcáàtéëd éëxtéërnáàl ÏD. |
 {: .reset-td-br-1 .reset-td-br-2}
 
  {% endtab %}
  {% tab Email %}
 
-| Näãmêé | Dêëscrììptììòön |
+| Nâåmëé | Dëéscríîptíîóòn |
 |---|---|---|
-| `email.unsubscribe` | Qüúééry fóôr üúnsüúbscrìíbééd éémæâìíl æâddréésséés.  |
-| `email.status` | Châängéè éèmâäíîl âäddréèss stâätüùs. |
-| `email.hard_bounces` | Qýúéëry fòõr háárd bòõýúncéëd éëmááìïl ááddréësséës. |
-| `email.bounce.remove` | Rèêmôôvèê èêmãáîíl ãáddrèêssèês frôôm yôôúûr hãárd bôôúûncèê lîíst. |
-| `email.spam.remove` | Rëèmöõvëè ëèmàæìïl àæddrëèssëès fröõm yöõûûr spàæm lìïst. |
-| `email.blacklist` | Blâåcklîìst ëèmâåîìl âåddrëèssëès. |
+| `email.unsubscribe` | Qùùêèry fõõr ùùnsùùbscrííbêèd êèmàæííl àæddrêèssêès.  |
+| `email.status` | Chàångéê éêmàåîîl àåddréêss stàåtýýs. |
+| `email.hard_bounces` | Qùùêèry föör hàârd bööùùncêèd êèmàâïíl àâddrêèssêès. |
+| `email.bounce.remove` | Rèémôôvèé èémàåíìl àåddrèéssèés frôôm yôôúùr hàård bôôúùncèé líìst. |
+| `email.spam.remove` | Rêêmòövêê êêmáæíïl áæddrêêssêês fròöm yòöùùr spáæm líïst. |
+| `email.blacklist` | Blââcklïíst éémââïíl ââddréésséés. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Messages %}
 
-| Nàämëë | Dèêscríìptíìõõn |
+| Nàâméë | Dèéscrììptììóón |
 |---|---|---|
-| `messages.send` | Sèênd áán ìímmèêdìíáátèê, áád-hòõc mèêssáágèê tòõ spèêcìífìíc ùýsèêrs. |
-| `messages.schedule.create` | Schèédûülèé åâ mèéssåâgèé tòõ bèé sèént åât åâ spèécïîfïîc tïîmèé. |
-| `messages.schedule.update` | Ûpdàâtéé àâ schéédùúlééd mééssàâgéé. |
-| `messages.schedule.delete` | Dêëlêëtêë åä schêëdúûlêëd mêëssåägêë. |
-| `messages.schedule_broadcasts` | Qûùêéry ãáll schêédûùlêéd bróóãádcãást mêéssãágêés. |
+| `messages.send` | Sëénd áàn îìmmëédîìáàtëé, áàd-hôóc mëéssáàgëé tôó spëécîìfîìc úýsëérs. |
+| `messages.schedule.create` | Schëédûúlëé æá mëéssæágëé tòö bëé sëént æát æá spëécìîfìîc tìîmëé. |
+| `messages.schedule.update` | Ùpdàätëé àä schëédýûlëéd mëéssàägëé. |
+| `messages.schedule.delete` | Dëélëétëé æä schëédüûlëéd mëéssæägëé. |
+| `messages.schedule_broadcasts` | Qýüéêry áåll schéêdýüléêd bróôáådcáåst méêssáågéês. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Campaigns %}
 
-| Næåmêë | Dêëscrìíptìíôòn |
+| Nåâmèé | Dèèscrïïptïïòõn |
 |---|---|---|
-| `campaigns.trigger.send` | Trîíggëèr thëè sëèndîíng òòf äãn ëèxîístîíng cäãmpäãîígn. |
-| `campaigns.trigger.schedule.create` | Schëèdúûlëè ãã fúûtúûrëè sëènd óòf ãã cããmpããíígn wííth ÄPÌ-trííggëèrëèd dëèlíívëèry. |
-| `campaigns.trigger.schedule.update` | Üpdäåtêë äå cäåmpäåíïgn schêëdúýlêëd wíïth ÂPÌ-tríïggêërêëd dêëlíïvêëry. |
-| `campaigns.trigger.schedule.delete` | Dèëlèëtèë àâ càâmpàâïîgn schèëdùùlèëd wïîth ÅPÎ-trïîggèërèëd dèëlïîvèëry |
-| `campaigns.list` | Qùýëéry föõr ää lìïst öõf cäämpääìïgns. |
-| `campaigns.data_series` | Qúúëêry fôõr cäãmpäãíïgn äãnäãlytíïcs ôõvëêr äã tíïmëê räãngëê. |
-| `campaigns.details` | Qúýééry fóör déétåæîïls óöf åæ spéécîïfîïc cåæmpåæîïgn. |
-| `sends.data_series` | Qûûëèry fóôr mëèssàãgëè sëènd àãnàãlytïícs óôvëèr àã tïímëè ràãngëè. |
-| `sends.id.create` | Crêéáätêé Sêénd ÏD fóör mêéssáägêé bláäst tráäckîìng. |
+| `campaigns.trigger.send` | Trîìggêèr thêè sêèndîìng öõf áæn êèxîìstîìng cáæmpáæîìgn. |
+| `campaigns.trigger.schedule.create` | Schéédúûléé ââ fúûtúûréé séénd óòf ââ cââmpââïîgn wïîth ÂPÌ-trïîggéérééd déélïîvééry. |
+| `campaigns.trigger.schedule.update` | Üpdáåtèé áå cáåmpáåîìgn schèédúýlèéd wîìth ÂPÍ-trîìggèérèéd dèélîìvèéry. |
+| `campaigns.trigger.schedule.delete` | Dëêlëêtëê âã câãmpâãììgn schëêdüûlëêd wììth ÅPÌ-trììggëêrëêd dëêlììvëêry |
+| `campaigns.list` | Qùùëêry fôör àá lìíst ôöf càámpàáìígns. |
+| `campaigns.data_series` | Qûüëêry fôôr cååmpååíígn åånåålytíícs ôôvëêr åå tíímëê råångëê. |
+| `campaigns.details` | Qùùêèry föòr dêètåäîïls öòf åä spêècîïfîïc cåämpåäîïgn. |
+| `sends.data_series` | Qûûëëry fõör mëëssààgëë sëënd àànààlytïícs õövëër àà tïímëë rààngëë. |
+| `sends.id.create` | Créêáàtéê Séênd ÍD fòör méêssáàgéê bláàst tráàckíîng. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Canvas %}
 
-| Nåãmèê | Dêëscrïîptïîöón |
+| Nàämèê | Dêéscrììptììõón |
 |---|---|---|
-| `canvas.trigger.send` | Trííggéêr théê séêndííng óôf åän éêxíístííng Cåänvåäs. |
-| `canvas.trigger.schedule.create` | Schèêdúúlèê äæ fúútúúrèê sèênd ööf äæ Cäænväæs wïîth ÁPÍ-trïîggèêrèêd dèêlïîvèêry. |
-| `canvas.trigger.schedule.update` | Úpdæåtéê æå Cæånvæås schéêdùúléêd wîìth ÅPÏ-trîìggéêréêd déêlîìvéêry. |
-| `canvas.trigger.schedule.delete` | Dêèlêètêè àà Càànvààs schêèdýùlêèd wïîth ÆPÌ-trïîggêèrêèd dêèlïîvêèry. |
-| `canvas.list` | Qýûëèry fôór äæ líìst ôóf Cäænväæsëès. |
-| `canvas.data_series` | Qûùêèry fôör Cåànvåàs åànåàlytìîcs ôövêèr åà tìîmêè råàngêè. |
-| `canvas.details` | Qúúëêry föõr dëêtææìïls öõf ææ spëêcìïfìïc Cæænvææs. |
-| `canvas.data_summary` | Qùýèèry fõõr rõõllùýps õõf Càænvàæs àænàælytìïcs õõvèèr àæ tìïmèè ràængèè. |
+| `canvas.trigger.send` | Tríîggéër théë séëndíîng óõf âãn éëxíîstíîng Câãnvâãs. |
+| `canvas.trigger.schedule.create` | Schêédùûlêé àä fùûtùûrêé sêénd ööf àä Càänvàäs wíïth ÁPÏ-tríïggêérêéd dêélíïvêéry. |
+| `canvas.trigger.schedule.update` | Ùpdãätéë ãä Cãänvãäs schéëdüûléëd wîíth ÃPÍ-trîíggéëréëd déëlîívéëry. |
+| `canvas.trigger.schedule.delete` | Dëèlëètëè æá Cæánvæás schëèdûûlëèd wìïth ÅPÌ-trìïggëèrëèd dëèlìïvëèry. |
+| `canvas.list` | Qúüëèry fõòr äâ líîst õòf Cäânväâsëès. |
+| `canvas.data_series` | Qùüëéry föôr Câänvâäs âänâälytïîcs öôvëér âä tïîmëé râängëé. |
+| `canvas.details` | Qùúèêry fòör dèêtáàîìls òöf áà spèêcîìfîìc Cáànváàs. |
+| `canvas.data_summary` | Qùüéêry föôr röôllùüps öôf Càænvàæs àænàælytìîcs öôvéêr àæ tìîméê ràængéê. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Segments %}
 
-| Nàãmëê | Dëèscrìíptìíôõn |
+| Næàméè | Dëêscrìïptìïòòn |
 |---|---|---|
-| `segments.list` | Qûûêëry fóõr ää lìîst óõf Sêëgmêënts. |
-| `segments.data_series` | Qüúêèry fòôr Sêègmêènt åánåálytìîcs òôvêèr åá tìîmêè råángêè. |
-| `segments.details` | Qùüëëry fóòr dëëtáæïìls óòf áæ spëëcïìfïìc Sëëgmëënt. |
+| `segments.list` | Qûýèêry fòór åâ líîst òóf Sèêgmèênts. |
+| `segments.data_series` | Qýùééry fóòr Séégméént áãnáãlytíîcs óòvéér áã tíîméé ráãngéé. |
+| `segments.details` | Qùýêëry fóör dêëtâãîîls óöf âã spêëcîîfîîc Sêëgmêënt. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Purchases %}
 
-| Nãæméë | Dèéscríîptíîóön |
+| Nåãmèë | Dèêscrììptììòôn |
 |---|---|---|
-| `purchases.product_list` | Qùúëêry föòr ââ lííst öòf pröòdùúcts pùúrchââsëêd íín yöòùúr ââpp. |
-| `purchases.revenue_series` | Qüùéèry fôõr tôõtâål môõnéèy spéènt péèr dâåy íín yôõüùr âåpp ôõvéèr âå tííméè râångéè. |
-| `purchases.quantity_series` | Qúüéèry fóôr théè tóôtãäl núümbéèr óôf púürchãäséès péèr dãäy íïn yóôúür ãäpp óôvéèr ãä tíïméè rãängéè. |
+| `purchases.product_list` | Qúúêéry fóôr âà lïîst óôf próôdúúcts púúrchâàsêéd ïîn yóôúúr âàpp. |
+| `purchases.revenue_series` | Qûýéêry fõôr tõôtãæl mõônéêy spéênt péêr dãæy íín yõôûýr ãæpp õôvéêr ãæ tííméê rãængéê. |
+| `purchases.quantity_series` | Qüùèéry fòõr thèé tòõtæál nüùmbèér òõf püùrchæásèés pèér dæáy ïìn yòõüùr æápp òõvèér æá tïìmèé ræángèé. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Events %}
 
-| Nãämèê | Déêscrïîptïîóôn |
+| Nàæméè | Dëêscríïptíïôòn |
 |---|---|---|
-| `events.list` | Qûýêèry fóõr åä lîîst óõf cûýstóõm êèvêènts. |
-| `events.data_series` | Qúúéêry òòccúúrréêncéês òòf æá cúústòòm éêvéênt òòvéêr æá tïîméê ræángéê. |
+| `events.list` | Qüùéêry fòôr ãæ lìíst òôf cüùstòôm éêvéênts. |
+| `events.data_series` | Qýüêêry õõccýürrêêncêês õõf äâ cýüstõõm êêvêênt õõvêêr äâ tïîmêê räângêê. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab News Feed %}
 
-| Nàámëè | Dëéscríïptíïôön |
+| Nàámêé | Dèêscríïptíïóòn |
 |---|---|---|
-| `feed.list` | Qýüèèry föör ââ líìst ööf Nèèws Fèèèèd câârds. |
-| `feed.data_series` | Qýúêêry fôòr Nêêws Fêêêêd æânæâlytìïcs ôòvêêr æâ tìïmêê ræângêê. |
-| `feed.details` | Qüúéèry föôr déètåàïíls öôf åà spéècïífïíc Néèws Féèéèd. |
+| `feed.list` | Qùúéêry fóôr ââ lïîst óôf Néêws Féêéêd câârds. |
+| `feed.data_series` | Qúýèéry fôôr Nèéws Fèéèéd àãnàãlytîìcs ôôvèér àã tîìmèé ràãngèé. |
+| `feed.details` | Qýùéêry föõr déêtåãïìls öõf åã spéêcïìfïìc Néêws Féêéêd. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Sessions %}
 
-| Nãàméé | Dèéscrìíptìíóôn |
+| Nææmèê | Dèëscrííptííõòn |
 |---|---|---|
-| `sessions.data_series` | Qúúëéry fòör sëéssîïòöns pëér däáy òövëér äá tîïmëé räángëé. |
+| `sessions.data_series` | Qýüéëry fòõr séëssïìòõns péër dãây òõvéër ãâ tïìméë rãângéë. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab KPIs %}
 
-| Nåâmëè | Déëscrìíptìíõôn |
+| Nàáméë | Dëêscrííptííõôn |
 |---|---|---|
-| `kpi.mau.data_series` | Qúûééry fôôr tôôtâæl úûnïïqúûéé âæctïïvéé úûséérs ôôvéér âæ 30-dâæy rôôllïïng wïïndôôw ôôvéér âæ tïïméé râængéé. |
-| `kpi.dau.data_series` |  Qúüëèry fòör úünìíqúüëè áäctìívëè úüsëèrs pëèr dáäy òövëèr áä tìímëè ráängëè. |
-| `kpi.new_users.data_series` | Qüúéèry fôôr néèw üúséèrs péèr dåày ôôvéèr åà tïíméè råàngéè. |
-| `kpi.uninstalls.data_series` | Qýûéèry fõór åápp ýûnìïnståálls péèr dåáy õóvéèr åá tìïméè råángéè. |
+| `kpi.mau.data_series` | Qùúèêry fôõr tôõtæãl ùúníïqùúèê æãctíïvèê ùúsèêrs ôõvèêr æã 30-dæãy rôõllíïng wíïndôõw ôõvèêr æã tíïmèê ræãngèê. |
+| `kpi.dau.data_series` |  Qúüëêry fõõr úünîìqúüëê åáctîìvëê úüsëêrs pëêr dåáy õõvëêr åá tîìmëê råángëê. |
+| `kpi.new_users.data_series` | Qýûëèry fõór nëèw ýûsëèrs pëèr dâäy õóvëèr âä tîímëè râängëè. |
+| `kpi.uninstalls.data_series` | Qýüèêry fõór ãåpp ýüníïnstãålls pèêr dãåy õóvèêr ãå tíïmèê rãångèê. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Templates %}
 
-| Náåmèê | Déèscrìîptìîôön |
+| Näæméè | Dêèscrìíptìíóón |
 |---|---|---|
-| `templates.email.create` | Crêéæàtêé æà nêéw êémæàííl têémplæàtêé õõn thêé dæàshbõõæàrd. |
-| `templates.email.update` | Üpdæàtéê æàn éêmæàììl téêmplæàtéê stòòréêd òòn théê dæàshbòòæàrd. |
-| `templates.email.info` | Qûùèèry fõór íïnfõórmæåtíïõón õóf æå spèècíïfíïc tèèmplæåtèè. |
-| `templates.email.list` | Qúúéèry fóör æâ lïíst óöf éèmæâïíl téèmplæâtéès. |
+| `templates.email.create` | Crëéáætëé áæ nëéw ëémáæìîl tëémpláætëé ôôn thëé dáæshbôôáærd. |
+| `templates.email.update` | Úpdååtèè åån èèmååïïl tèèmplååtèè stóôrèèd óôn thèè dååshbóôåård. |
+| `templates.email.info` | Qùùèéry föòr ïînföòrmæætïîöòn öòf ææ spèécïîfïîc tèémplæætèé. |
+| `templates.email.list` | Qúýëèry fõör âä lìîst õöf ëèmâäìîl tëèmplâätëès. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab SSO %}
 
-| Nåàméë | Dêéscrìîptìîõõn |
+| Náámëë | Dèèscrííptííõõn |
 |---|---|---|
-| `sso.saml.login` |  Sêêtúýp ìídêêntìíty prõôvìídêêr-ìínìítìíäàtêêd lõôgìín. Rèéãàd óöùür dóöcùümèéntãàtïíóön fóör móörèé ïínfóö. |
+| `sso.saml.login` |  Sêëtüûp îîdêëntîîty prôòvîîdêër-îînîîtîîãàtêëd lôògîîn. Réëâãd ôõüúr dôõcüúméëntâãtííôõn fôõr môõréë íínfôõ. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Content Blocks %}
 
-| Näámèé | Dééscrìïptìïõón |
+| Näämêè | Dèêscrîïptîïöôn |
 |---|---|---|
-| `content_blocks.info` | Qùûèèry fôôr ìínfôôrmæàtìíôôn ôôf æà spèècìífìíc tèèmplæàtèè. |
-| `content_blocks.list` | Qûüèéry fòör åá lïîst òöf Còöntèént Blòöcks. |
-| `content_blocks.create` | Crëêæåtëê æå nëêw Còòntëênt Blòòck òòn thëê dæåshbòòæård. |
+| `content_blocks.info` | Qüüéëry föòr îínföòrmåâtîíöòn öòf åâ spéëcîífîíc téëmplåâtéë. |
+| `content_blocks.list` | Qûúëèry fòôr äå lîîst òôf Còôntëènt Blòôcks. |
+| `content_blocks.create` | Crëèáåtëè áå nëèw Còòntëènt Blòòck òòn thëè dáåshbòòáård. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% tab Subscription %}
 
-| Náâmêê | Dêéscrïìptïìòôn |
+| Nâãmëé | Déèscrïïptïïõõn |
 |---|---|---|
-| `subscription.status.set` | Sêét sûûbscrììptììõôn grõôûûp ståætûûs. |
-| `subscription.status.get` | Gëët súúbscrïíptïíóôn gróôúúp stããtúús. |
-| `subscription.groups.get` | Gèét stáätýüs õóf sýübscrîîptîîõón grõóýüps tháät spèécîîfîîc ýüsèérs áärèé èéxplîîcîîtly sýübscrîîbèéd/ýünsýübscrîîbèéd tõó. |
+| `subscription.status.set` | Séêt súúbscríîptíîóõn gróõúúp stãætúús. |
+| `subscription.status.get` | Géèt sýúbscrîìptîìóön gróöýúp stààtýús. |
+| `subscription.groups.get` | Géêt stæætýùs õöf sýùbscrïîptïîõön grõöýùps thææt spéêcïîfïîc ýùséêrs ææréê éêxplïîcïîtly sýùbscrïîbéêd/ýùnsýùbscrïîbéêd tõö. |
 {: .reset-td-br-1 .reset-td-br-2}
 
 {% endtab %}
 {% endtabs %}
 
-Fõôr åå fûûll dêéscrìîptìîõôn õôf thêésêé ÃPÌ êéndpõôìînts, rêéfêér tõô õôûûr [ÃPÏ èëndpôõìïnt ìïndèëx]({{site.baseurl}}/api/endpoints/) òör òöýûr [Póôstmæán cóôllêëctîìóôn][6].
+Fóõr ãæ fùúll dëèscrïïptïïóõn óõf thëèsëè ÄPÌ ëèndpóõïïnts, rëèfëèr tóõ óõùúr [ÀPÌ ëëndpôóíînt íîndëëx]({{site.baseurl}}/api/endpoints/) ôór ôóûùr [Pòöstmâån còöllèëctíìòön][6].
 
 {% alert important %}
-Öncêè yòôýý crêèäátêè äá nêèw ÀPÌ Kêèy, yòôýý cäánnòôt êèdïìt thêè scòôpêè òôf pêèrmïìssïìòôns òôr thêè whïìtêèlïìstêèd ÌPs. Thîìs lîìmîìtæátîìöôn îìs îìn plæácéé föôr séécùúrîìty rééæásöôns. Ìf yôòüü nêéêéd tôò chäãngêé thêé scôòpêé ôòf äã kêéy, crêéäãtêé äã nêéw kêéy wìïth thêé üüpdäãtêéd pêérmìïssìïôòns äãnd ìïmplêémêént thäãt kêéy ìïn pläãcêé ôòf thêé ôòld ôònêé. Ôncêê yòõýü’vêê còõmplêêtêêd yòõýür îïmplêêmêêntæãtîïòõn, gòõ æãhêêæãd æãnd dêêlêêtêê thêê òõld kêêy.
+Òncêê yòõûú crêêáâtêê áâ nêêw ÄPÎ Kêêy, yòõûú cáânnòõt êêdïît thêê scòõpêê òõf pêêrmïîssïîòõns òõr thêê whïîtêêlïîstêêd ÎPs. Thíís líímíítåãtííöön íís íín plåãcêé föör sêécüúrííty rêéåãsööns. Íf yõõúù nèèèèd tõõ chåångèè thèè scõõpèè õõf åå kèèy, crèèååtèè åå nèèw kèèy wïíth thèè úùpdååtèèd pèèrmïíssïíõõns åånd ïímplèèmèènt thååt kèèy ïín plååcèè õõf thèè õõld õõnèè. Õncèè yöôýú’vèè cöômplèètèèd yöôýúr íîmplèèmèèntãåtíîöôn, göô ãåhèèãåd ãånd dèèlèètèè thèè öôld kèèy.
 {% endalert %}
 
-## Théê Ápp Ïdéêntìífìíéêr ÁPÏ kéêy
+## Thèë Åpp Ïdèëntíîfíîèër ÅPÏ kèëy
 
-Thêé Ápp Îdêéntîìfîìêér ÁPÎ kêéy ôôr `app_id` îîs äâ päâräâméètéèr äâssòöcîîäâtîîng äâctîîvîîty wîîth äâ spéècîîfîîc äâpp îîn yòöûùr äâpp gròöûùp. Ït dëêsîîgnãåtëês whîîch ãåpp wîîthîîn thëê ãåpp gróôüýp yóôüý ãårëê îîntëêrãåctîîng wîîth. Fóôr ëéxãâmplëé, yóôûý wííll fíínd thãât yóôûý wííll hãâvëé ãân `app_id` fòôr yòôüûr íîÒS ãâpp, ãân `app_id` fôòr yôòùür áándrôòîîd áápp, áánd áán `app_id` fòör yòöüûr wèéb îïntèégræætîïòön. Æt Brãázêë, yöõûü mìíght fìínd thãát yöõûü hãávêë mûültìíplêë ãápps föõr thêë sãámêë plãátföõrm ãácröõss thêë vãárìíöõûüs plãátföõrm typêës thãát Brãázêë sûüppöõrts.
+Thêè Äpp Îdêèntïîfïîêèr ÄPÎ kêèy óõr `app_id` ïïs áå páåráåmêètêèr áåssóócïïáåtïïng áåctïïvïïty wïïth áå spêècïïfïïc áåpp ïïn yóóüýr áåpp gróóüýp. Ít dëésìígnáâtëés whìích áâpp wìíthìín thëé áâpp grööüüp yööüü áârëé ìíntëéráâctìíng wìíth. Föór êéxäämplêé, yöóûý wïíll fïínd thäät yöóûý wïíll häävêé ään `app_id` fóõr yóõüúr îïÒS àäpp, àän `app_id` föór yöóýùr æændröóììd ææpp, æænd ææn `app_id` fõör yõöúûr wêëb îîntêëgræátîîõön. Ãt Bråàzéë, yõõüý míìght fíìnd thåàt yõõüý håàvéë müýltíìpléë åàpps fõõr théë såàméë plåàtfõõrm åàcrõõss théë våàríìõõüýs plåàtfõõrm typéës thåàt Bråàzéë süýppõõrts.
 
-Âpp îïdéêntîïfîïéêrs áåt Bráåzéê áåréê ùüséêd whéên îïntéêgráåtîïng théê SDK áånd áåréê áålsóò ùüséêd tóò réêféêréêncéê áå spéêcîïfîïc áåpp îïn RËST ÂPÌ cáålls. Wïìth théê `app_id` yòõýú câån dòõ mâåny thííngs lííkèë pýúll dâåtâå fòõr âå cýústòõm èëvèënt thâåt òõccýúrrèëd fòõr âå pâårtíícýúlâår âåpp, rèëtrííèëvèë ýúníínstâåll stâåts, nèëw ýúsèër stâåts, DÅÛ stâåts, âånd sèëssííòõn stâårt stâåts fòõr âå pâårtíícýúlâår âåpp.
+Æpp íìdëèntíìfíìëèrs æát Bræázëè æárëè ùûsëèd whëèn íìntëègræátíìng thëè SDK æánd æárëè æálsóò ùûsëèd tóò rëèfëèrëèncëè æá spëècíìfíìc æápp íìn RËST ÆPÎ cæálls. Wïìth thèè `app_id` yóòüý cáån dóò máåny thíïngs líïkêê püýll dáåtáå fóòr áå cüýstóòm êêvêênt tháåt óòccüýrrêêd fóòr áå páårtíïcüýláår áåpp, rêêtríïêêvêê üýníïnstáåll stáåts, nêêw üýsêêr stáåts, DÀÙ stáåts, áånd sêêssíïóòn stáårt stáåts fóòr áå páårtíïcüýláår áåpp.
 
-Sôòmêêtîïmêês, yôòûû mâäy fîïnd yôòûû âärêê prôòmptêêd fôòr âän `app_id` bùýt yõôùý ãâréê nõôt wõôrkïîng wïîth ãân ãâpp, béêcãâùýséê ïît ïîs ãâ léêgãâcy fïîéêld spéêcïîfïîc tõô ãâ spéêcïîfïîc plãâtfõôrm, yõôùý cãân “õômïît” thïîs fïîéêld by ïînclùýdïîng ãâny strïîng õôf chãârãâctéêrs ãâs ãâ plãâcéêhõôldéêr fõôr thïîs réêqùýïîréêd pãârãâméêtéêr.
+Sòòméétíîméés, yòòüý mâáy fíînd yòòüý âáréé pròòmptééd fòòr âán `app_id` býút yôöýú æárêë nôöt wôörkïîng wïîth æán æápp, bêëcæáýúsêë ïît ïîs æá lêëgæácy fïîêëld spêëcïîfïîc tôö æá spêëcïîfïîc plæátfôörm, yôöýú cæán “ôömïît” thïîs fïîêëld by ïînclýúdïîng æány strïîng ôöf chæáræáctêërs æás æá plæácêëhôöldêër fôör thïîs rêëqýúïîrêëd pæáræámêëtêër.
 
-### Whèèrèè cæán Ì fíínd íít?
+### Whêèrêè cãån Ì fïìnd ïìt?
 
-Thëêrëê åárëê twôö wåáys tôö lôöcåátëê yôöùúr `app_id`:
+Thèérèé àærèé twòò wàæys tòò lòòcàætèé yòòùür `app_id`:
 
-1. Yôõùû cæãn fîïnd thîïs `app_id` öòr ãåpplîícãåtîíöòn îídëèntîífîíëèr îín thëè **Déèvéèlôôpéèr Côônsôôléè** ùùndèër **Sèëttíîngs**. Ón thíìs néëw päàgéë, úúndéër **Ïdèèntïìfïìcãâtïìòõn**, yööüú wïîll bêë ææblêë töö sêëêë êëvêëry `app_id` thæát êêxïísts föòr yöòúýr æápps.
+1. Yõõüû cåãn fíïnd thíïs `app_id` õòr àæpplïícàætïíõòn ïídééntïífïíéér ïín théé **Dèévèélôôpèér Côônsôôlèé** ùûndèér **Sêèttííngs**. Òn thîìs nééw pããgéé, ýúndéér **Ídéèntíífíícâätííôõn**, yòõúù wíìll bëë áåblëë tòõ sëëëë ëëvëëry `app_id` thãát éèxïïsts fòór yòóùûr ãápps.
 
-2. Gõô tõô **Mãánãágëé Sëéttïìngs** úûndëèr **Séèttïìngs**. Fröòm thììs néëw päägéë, ììn théë **Sèëttïîngs** táãb, mìîdwáãy thrôõüùgh thëè páãgëè yôõüù wìîll fìînd áãn "ÅPÎ këèy fôõr **ÁPP NÁMÉ** òón **PLÂTFÓRM**" (éè.g "ÃPÏ Kéèy föór Ïcéè Créèæám öón ïìÕS). Thîìs ÀPÌ kééy îìs yôóúùr Àpplîìcåætîìôón Ìdééntîìfîìéér.
+2. Gôõ tôõ **Mäánäágéë Séëttìîngs** üúndèér **Sèèttììngs**. Frõôm thïïs nèèw pââgèè, ïïn thèè **Sèéttìîngs** tæåb, mìídwæåy thrôóùùgh thëè pæågëè yôóùù wìíll fìínd æån "ÃPÎ këèy fôór **ÁPP NÁMÊ** òòn **PLÃTFÕRM**" (ëè.g "ÆPÌ Këèy föôr Ìcëè Crëèâàm öôn ìíÓS). Thíïs ÂPÍ kéëy íïs yóòýùr Âpplíïcàãtíïóòn Ídéëntíïfíïéër.
 
-### Mûûltíípléë Àpp Îdéëntíífííéër ÀPÎ kéëys
+### Mýýltíîplèë Ápp Ìdèëntíîfíîèër ÁPÌ kèëys
 
-Dýûrïîng SDK sëét ýûp, thëé mòóst còómmòón ýûsëé cààsëé fòór mýûltïîplëé Ãpp Ídëéntïîfïîëér ÃPÍ këéys ïîs sëépààrààtïîng thòósëé këéys fòór dëébýûg àànd rëélëéààsëé býûïîld vààrïîàànts.
-Tòõ ééààsïíly swïítch béétwéééén mùùltïípléé Àpp Ïdééntïífïíéér ÀPÏ kééys ïín yòõùùr bùùïílds, wéé réécòõmméénd crééààtïíng àà séépààrààtéé `braze.xml` fïïlèè fòõr èèáäch rèèlèèváänt [bùýïîld vããrïîããnt][3]. Æ büùîíld vãârîíãânt îís ãâ côõmbîínãâtîíôõn ôõf büùîíld typéé ãând prôõdüùct flãâvôõr. Nöõtêé thàât by dêéfàâüúlt, àâ nêéw Ándröõíîd pröõjêéct íîs cöõnfíîgüúrêéd wíîth `debug` äånd `release` búúìíld typëês âãnd nòõ pròõdúúct flâãvòõrs.
+Dùúríìng SDK séét ùúp, théé möôst cöômmöôn ùúséé cåäséé föôr mùúltíìpléé Âpp Ïdééntíìfíìéér ÂPÏ kééys íìs séépåäråätíìng thöôséé kééys föôr déébùúg åänd réélééåäséé bùúíìld våäríìåänts.
+Töö ëëâäsíïly swíïtch bëëtwëëëën mùùltíïplëë Àpp Ïdëëntíïfíïëër ÀPÏ këëys íïn yööùùr bùùíïlds, wëë rëëcöömmëënd crëëâätíïng âä sëëpâärâätëë `braze.xml` fíílëè fôór ëèãàch rëèlëèvãànt [bûùììld våårììåånt][3]. Á búýíîld váâríîáânt íîs áâ côõmbíînáâtíîôõn ôõf búýíîld typèé áând prôõdúýct fláâvôõr. Nôôtèé thåät by dèéfåäýýlt, åä nèéw Ändrôôîíd prôôjèéct îís côônfîígýýrèéd wîíth `debug` àând `release` büúîîld typêés äànd nõô prõôdüúct fläàvõôrs.
 
-Fóòr ëéàäch rëélëévàänt büûììld vàärììàänt, crëéàätëé àä nëéw `braze.xml` föór îît îîn `src/<build variant name>/res/values/`:
+Fóõr ëèããch rëèlëèvããnt bûùìíld vããrìíããnt, crëèããtëè ãã nëèw `braze.xml` fôòr ïìt ïìn `src/<build variant name>/res/values/`:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -249,15 +248,15 @@ Fóòr ëéàäch rëélëévàänt büûììld vàärììàänt, crëéàätë�
 <string name="com_appboy_api_key">REPLACE_WITH_YOUR_BUILD_VARIANT_API_KEY</string>
 </resources>
 ```
-Whèén thèé büúììld våãrììåãnt ììs cöòmpììlèéd, ììt wììll üúsèé thèé nèéw ÀPÌ kèéy.
+Whêén thêé bûüïìld vâærïìâænt ïìs côòmpïìlêéd, ïìt wïìll ûüsêé thêé nêéw ÀPÎ kêéy.
 
-## RÈST ÄPÎ kééy séécûürîîty
+## RÉST ÂPÍ këêy sëêcýúrìîty
 
-Sêëcüýrììty ììs ôóf thêë üýtmôóst ììmpôórtàãncêë àãt Bràãzêë. Gîîvëèn thæát RËST ÂPÍ Këèys æállóõw æáccëèss tóõ póõtëèntîîæálly sëènsîîtîîvëè RËST ÂPÍ ëèndpóõîînts, sëècüûrëè thëèsëè këèys æánd óõnly shæárëè thëèm wîîth trüûstëèd pæártnëèrs. Théêy shööýúld néêvéêr béê pýúblíícly éêxpööséêd. Fõôr èêxâåmplèê, dõô nõôt ùúsèê thïís kèêy tõô mâåkèê ÀJÀX câålls frõôm yõôùúr wèêbsïítèê õôr èêxpõôsèê ïít ïín âåny õôthèêr pùúblïíc mâånnèêr.
+Sêècüùrïìty ïìs ôòf thêè üùtmôòst ïìmpôòrtåäncêè åät Bråäzêè. Gíívêèn thãæt RËST ÀPÍ Kêèys ãællôów ãæccêèss tôó pôótêèntííãælly sêènsíítíívêè RËST ÀPÍ êèndpôóíínts, sêècùûrêè thêèsêè kêèys ãænd ôónly shãærêè thêèm wííth trùûstêèd pãærtnêèrs. Thêëy shõôúùld nêëvêër bêë púùblïïcly êëxpõôsêëd. Fòôr èëxåâmplèë, dòô nòôt üüsèë thîîs kèëy tòô måâkèë ÃJÃX cåâlls fròôm yòôüür wèëbsîîtèë òôr èëxpòôsèë îît îîn åâny òôthèër püüblîîc måânnèër.
 
-Å gôôôôd sèêcùùrïíty präãctïícèê ïís tôô äãssïígn äã ùùsèêr ôônly äãs mùùch äãccèêss äãs ïís nèêcèêssäãry tôô côômplèêtèê thèêïír jôôb: thïís prïíncïíplèê cäãn äãlsôô bèê äãpplïíèêd tôô ÅPÍ Kèêys by äãssïígnïíng pèêrmïíssïíôôns tôô èêäãch kèêy. Thêësêë pêërmíìssíìóóns gíìvêë yóóüü bêëttêër sêëcüüríìty äænd cóóntróól óóvêër thêë díìffêërêënt äærêëäæs óóf yóóüür äæccóóüünt.
+Á gõóõód sèécýürìîty prãæctìîcèé ìîs tõó ãæssìîgn ãæ ýüsèér õónly ãæs mýüch ãæccèéss ãæs ìîs nèécèéssãæry tõó cõómplèétèé thèéìîr jõób: thìîs prìîncìîplèé cãæn ãælsõó bèé ãæpplìîèéd tõó ÁPÎ Kèéys by ãæssìîgnìîng pèérmìîssìîõóns tõó èéãæch kèéy. Thëèsëè pëèrmîïssîïòõns gîïvëè yòõúý bëèttëèr sëècúýrîïty âänd còõntròõl òõvëèr thëè dîïffëèrëènt âärëèâäs òõf yòõúýr âäccòõúýnt. 
 
-Wíìth Ãpp íìdêêntíìfíìêêrs, thêê `app_id` ïís äãssïígnéèd by Bräãzéè äãnd péèrmïíssïíööns cäãnnööt béè äãssïígnéèd öör réèvöökéèd. Bëècàåúýsëè óóf thëè nàåtúýrëè óóf thëè rëèlàåtïïóónshïïp bëètwëèëèn `app_id` åænd théé SDK, kéééépììng thììs ììdééntììfììéér séécùùréé ììs **crúýcîíäål** îïn théê séêcûùrîïty öòf yöòûùr ãäpplîïcãätîïöòn.
+Wîïth Æpp îïdêêntîïfîïêêrs, thêê `app_id` íîs äässíîgnéèd by Brääzéè äänd péèrmíîssíîõôns cäännõôt béè äässíîgnéèd õôr réèvõôkéèd. Bëècåäüùsëè ööf thëè nåätüùrëè ööf thëè rëèlåätíïöönshíïp bëètwëèëèn `app_id` ãånd théè SDK, kéèéèpííng thíís íídéèntíífííéèr séècúüréè íís **crûúcíïáál** ììn thëë sëëcýürììty ôöf yôöýür ãàpplììcãàtììôön.
 
 
 [2]: {{site.baseurl}}/api/identifier_types/

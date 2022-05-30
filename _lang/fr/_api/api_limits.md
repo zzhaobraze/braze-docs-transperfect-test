@@ -1,88 +1,86 @@
 ---
-nav_title: Ræætëè Lïímïíts
-article_title: ÀPÏ Ræâtêë Lîìmîìts
+nav_title: Râætêë Líïmíïts
+article_title: ÀPÌ Ràåtèé Líïmíïts
 page_order: 4.5
-description: "Thìís rêèfêèrêèncêè åårtìíclêè cöõvêèrs ÅPÍ rååtêè lìímìíts föõr thêè Brååzêè ÅPÍ ìínfrååstrúýctúýrêè."
+description: "Thîïs rééféérééncéé äärtîïcléé còövéérs ÂPÎ räätéé lîïmîïts fòör théé Brääzéé ÂPÎ îïnfräästrýùctýùréé."
 page_type: reference
 
 ---
 
-# ÀPÍ rãätêê lììmììts
+# ÀPÎ ræãtêé lîìmîìts
 
-Thèë Bràãzèë ÁPÌ îînfràãstrùúctùúrèë îîs dèësîîgnèëd tòô hàãndlèë hîîgh vòôlùúmèës òôf dàãtàã àãcròôss òôùúr cùústòômèër bàãsèë. Tõô ëënsüýrëë rëëspõônsïìblëë üýsëër õôf thëë ÆPÍ, wëë ëënfõôrcëë ÆPÍ rãàtëë lïìmïìts pëër ãàpp grõôüýp. Â ráàtéè lììmììt ììs théè théè núûmbéèr ôöf réèqúûéèsts théè ÂPÏ cáàn réècéèììvéè ììn áà gììvéèn tììméè péèrììôöd. Íf tõôõô mååny réèqúýéèsts ååréè séènt ìïn åå gìïvéèn tìïméè frååméè, yõôúý mååy séèéè éèrrõôr réèspõônséès wìïth åå stååtúýs cõôdéè õôf `429`, whíích ííndíícäátéës théë räátéë líímíít häás béëéën híít.
+Théë Brååzéë ÂPÍ íínfrååstrùûctùûréë íís déësíígnéëd töó hååndléë híígh vöólùûméës öóf dååtåå ååcröóss öóùûr cùûstöóméër bååséë. Tõô èènsûùrèè rèèspõônsîîblèè ûùsèèr õôf thèè ÀPÎ, wèè èènfõôrcèè ÀPÎ ráætèè lîîmîîts pèèr áæpp grõôûùp. Ä rãätéé líìmíìt íìs théé théé nýümbéér òôf rééqýüéésts théé ÄPÎ cãän réécééíìvéé íìn ãä gíìvéén tíìméé pééríìòôd. Ïf tòöòö mæäny rêêqúùêêsts æärêê sêênt ïín æä gïívêên tïímêê fræämêê, yòöúù mæäy sêêêê êêrròör rêêspòönsêês wïíth æä stæätúùs còödêê òöf `429`, whïîch ïîndïîcàâtëës thëë ràâtëë lïîmïît hàâs bëëëën hïît.
 
 {% alert warning %}
-ÁPÍ ræätêë líímííts æänd thêëíír væälùùêës (líímíítêëd öör ùùnlíímíítêëd) æärêë sùùbjêëct töö chæängêë dêëpêëndííng öön thêë prööpêër ùùsæägêë ööf ööùùr systêëm. Wéé ééncòöùüræägéé séénsîïbléé lîïmîïts whéén mæäkîïng æän ÀPÌ cæäll tòö préévéént dæämæägéé òör mîïsùüséé.
+ÅPÎ råætêé lïîmïîts åænd thêéïîr våælúùêés (lïîmïîtêéd óòr úùnlïîmïîtêéd) åærêé súùbjêéct tóò chåængêé dêépêéndïîng óòn thêé próòpêér úùsåægêé óòf óòúùr systêém. Wëè ëèncóóüüràägëè sëènsîïblëè lîïmîïts whëèn màäkîïng àän ÁPÏ càäll tóó prëèvëènt dàämàägëè óór mîïsüüsëè.
 {% endalert %}
 
-## Ráátêè lîìmîìts by rêèqýùêèst typêè
+## Ràætéê líïmíïts by réêqûúéêst typéê
 
-Thëë fôöllôöwîíng täåblëë lîísts spëëcîífîíc ÂPÍ räåtëë lîímîíts fôör dîíffëërëënt rëëqýùëëst typëës. Âll ôöthèèr rèèqýûèèsts nôöt líîstèèd íîn thíîs táæblèè háævèè áæ dèèfáæýûlt ráætèè líîmíît ôöf 250,000 rèèqýûèèsts pèèr hôöýûr.
+Thêê fõöllõöwîïng tàäblêê lîïsts spêêcîïfîïc ÆPÎ ràätêê lîïmîïts fõör dîïffêêrêênt rêêqûüêêst typêês. Ãll ööthèêr rèêqúüèêsts nööt lìîstèêd ìîn thìîs täáblèê häávèê äá dèêfäáúült räátèê lìîmìît ööf 250,000 rèêqúüèêsts pèêr hööúür.
 
-| Rééqýúéést Typéé | Dêèfåâüýlt ÃPÎ Råâtêè Lïïmïït |
+| Rêèqýúêèst Typêè | Dêèfãäýùlt ÀPÌ Rãätêè Lìímìít |
 | --- | --- |
-| [`/users/track`][10] | **Rèéqýüèésts:** 50,000 rèèqùüèèsts pèèr míínùütèè. Thîìs lîìmîìt cäãn bèè îìncrèèäãsèèd úýpòôn rèèqúýèèst. Rèèââch ôöûút tôö yôöûúr Cûústôömèèr Sûúccèèss Mâânââgèèr fôör môörèè íìnfôörmââtíìôön.<br>
-<br>
-**Bâätchìîng:** 75 ëêvëênts, 75 pûùrchâásëês, âánd 75 âáttrîìbûùtëês pëêr ÁPÍ rëêqûùëêst. Sèëèë [Bààtchîîng Úséër Trààck réëqýýéësts](#batch-user-track) föör mööréê. |
-| [`/users/export/ids`][11] | 2,500 rëéqùúëésts pëér mïïnùútëé. |
-| [`/users/delete`][12]<br>[`/users/alias/new`][13]<br>[`/users/identify`][14] | 20,000 réêqúûéêsts péêr mììnúûtéê, shâáréêd béêtwéêéên théê éêndpòóììnts. |
-| [`/events/list`][15] | 1,000 réëqüúéësts péër hóôüúr, shàäréëd wííth théë `/purchases/product_list` éèndpöóíïnt. |
-| [`/purchases/product_list`][16] | 1,000 réêqýùéêsts péêr hóôýùr, shãæréêd wïîth théê `/events/list` èéndpòóïìnt. |
-| [`/messages/send`][17] | 250 rèëqùüèësts pèër mïînùütèë whèën spèëcïîfyïîng ãá sèëgmèënt òôr Còônnèëctèëd Ãùüdïîèëncèë. Õthëérwíîsëé, 250,000 rëéqùúëésts pëér höôùúr. |
-| [`/campaigns/trigger/send`][17.1] | 250 rèêqúûèêsts pèêr mïínúûtèê whèên spèêcïífyïíng âã sèêgmèênt ôõr Côõnnèêctèêd Âúûdïíèêncèê. Óthëërwìïsëë, 250,000 rëëqúúëësts pëër hòôúúr. |
-| [`/canvas/trigger/send`][17.2] | 250 rêêqüýêêsts pêêr mîînüýtêê whêên spêêcîîfyîîng ãâ sêêgmêênt òòr Còònnêêctêêd Âüýdîîêêncêê. Ôthëérwíísëé, 250,000 rëéqûùëésts pëér hòóûùr. |
-| [`/sends/id/create`][18] | 100 réêqúúéêsts péêr dæåy. |
-| [`/subscription/status/set`][19] | 5,000 rèéqúùèésts pèér mìínúùtèé. |
+| [`/users/track`][10] | **Rëëqùùëësts:** 50,000 réêqüüéêsts péêr mììnüütéê. Thïîs lïîmïît cáàn bèë ïîncrèëáàsèëd ûûpóòn rèëqûûèëst. Réêåâch ôôùýt tôô yôôùýr Cùýstôôméêr Sùýccéêss Måânåâgéêr fôôr môôréê îìnfôôrmåâtîìôôn.<br><br>**Bããtchïìng:** 75 êévêénts, 75 püùrchàásêés, àánd 75 àáttrïìbüùtêés pêér ÂPÍ rêéqüùêést. Séêéê [Bàætchîìng Ùsèèr Tràæck rèèqüûèèsts](#batch-user-track) föôr möôrëë. |
+| [`/users/export/ids`][11] | 2,500 réèqüýéèsts péèr mìínüýtéè. |
+| [`/users/delete`][12]<br>[`/users/alias/new`][13]<br>[`/users/identify`][14] | 20,000 rêèqúùêèsts pêèr mïìnúùtêè, shæærêèd bêètwêèêèn thêè êèndpóõïìnts. |
+| [`/events/list`][15] | 1,000 rêêqüûêêsts pêêr hóóüûr, shæàrêêd wïîth thêê `/purchases/product_list` èêndpóôíínt. |
+| [`/purchases/product_list`][16] | 1,000 rêéqùûêésts pêér höôùûr, shàârêéd wïïth thêé `/events/list` êêndpõòïínt. |
+| [`/messages/send`][17] | 250 rêëqúýêësts pêër mììnúýtêë whêën spêëcììfyììng åå sêëgmêënt öör Cöönnêëctêëd Æúýdììêëncêë. Öthéérwïìséé, 250,000 rééqùûéésts péér hôóùûr. |
+| [`/campaigns/trigger/send`][17.1] | 250 rêèqûüêèsts pêèr mììnûütêè whêèn spêècììfyììng âå sêègmêènt óör Cóönnêèctêèd Àûüdììêèncêè. Öthêërwìïsêë, 250,000 rêëqùüêësts pêër hòöùür. |
+| [`/canvas/trigger/send`][17.2] | 250 rêèqýýêèsts pêèr mîínýýtêè whêèn spêècîífyîíng àá sêègmêènt òôr Còônnêèctêèd Ãýýdîíêèncêè. Õthêérwíìsêé, 250,000 rêéqùüêésts pêér hóõùür. |
+| [`/sends/id/create`][18] | 100 rèéqýýèésts pèér dæáy. |
+| [`/subscription/status/set`][19] | 5,000 rëëqúûëësts pëër míînúûtëë. |
 {: .reset-td-br-1 .reset-td-br-2}
 
-## Bãåtchïîng ÃPÌ réëqùüéësts
+## Bååtchìíng ÁPÎ réêqûüéêsts
 
-Bràæzèë's ÃPÎs àærèë búýïílt tóõ súýppóõrt bàætchïíng. Wííth båátchííng, Bråázèê cåán tåákèê íín åás mýúch dåátåá åás pöõssííblèê íín åá síínglèê ÁPÎ cåáll söõ thåát yöõýú döõn’t nèêèêd töõ måákèê åá löõt öõf ÁPÎ cåálls. Ìt's mòöréé ééffíïcíïéént fòör Brãàzéé tòö pròöcééss dãàtãà íïn bãàtchéés thãàn tòö pròöcééss dãàtãà òönéé cãàll ãàt ãà tíïméé. Fôòr êëxæämplêë, hæändlîìng 1,000 bæätchêëd ÅPÍ cæälls rêëqýýîìrêës lêëss rêësôòýýrcêës thæän hæändlîìng 75,000 îìndîìvîìdýýæäl cæälls. Bàætchïíng ïís éëxtréëméëly ïímpòòrtàænt fòòr àæny àæpplïícàætïíòòn thàæt màæy réëqúúïíréë mòòréë thàæn 75,000 càælls péër hòòúúr.
+Bråàzëè's ÆPÎs åàrëè bùùìílt tôó sùùppôórt båàtchìíng. Wíïth båàtchíïng, Bråàzêê cåàn tåàkêê íïn åàs mûých dåàtåà åàs pòóssíïblêê íïn åà síïnglêê ÄPÌ cåàll sòó thåàt yòóûý dòón’t nêêêêd tòó måàkêê åà lòót òóf ÄPÌ cåàlls. Ît's mòòréë éëffíìcíìéënt fòòr Bräázéë tòò pròòcéëss däátäá íìn bäátchéës thäán tòò pròòcéëss däátäá òònéë cäáll äát äá tíìméë. Fõör ééxäåmpléé, häåndlîìng 1,000 bäåtchééd ÆPÎ cäålls rééqúýîìréés lééss réésõöúýrcéés thäån häåndlîìng 75,000 îìndîìvîìdúýäål cäålls. Báåtchììng ììs ëéxtrëémëély ììmpöôrtáånt föôr áåny áåpplììcáåtììöôn tháåt máåy rëéqúýììrëé möôrëé tháån 75,000 cáålls pëér höôúýr.
 
 {% alert note %}
-RÊST ÂPÌ råàtêè líímíít ííncrêèåàsêès åàrêè cõönsíídêèrêèd båàsêèd õön nêèêèd fõör cûýstõömêèrs whõö åàrêè måàkííng ûýsêè õöf thêè ÂPÌ båàtchííng cåàpåàbíílíítííêès.
+RÊST ÀPÏ rååtéê lîìmîìt îìncréêååséês ååréê cöônsîìdéêréêd bååséêd öôn néêéêd föôr cúüstöôméêrs whöô ååréê mååkîìng úüséê öôf théê ÀPÏ bååtchîìng cååpååbîìlîìtîìéês.
 {% endalert %}
 
-### Bæätchììng Ùsëër Træäck rëëqýûëësts {#bæätch-ýûsëër-træäck}
+### Bàátchîïng Ûsèêr Tràáck rèêqúûèêsts {#bàátch-úûsèêr-tràáck}
 
-Éâæch `/users/track` rëêqüýëêst cåàn cóôntåàíîn üýp tóô 75 ëêvëênts, 75 åàttríîbüýtëê üýpdåàtëês, åànd 75 püýrchåàsëês. Êåâch cóòmpóònéènt (éèvéènt, åâttrìïbùûtéè, åând pùûrchåâséè åârråâys), cåân ùûpdåâtéè ùûp tóò 75 ùûséèrs éèåâch (måâx óòf 225 ìïndìïvìïdùûåâl ùûséèrs). Èâàch ýüpdâàtéè câàn âàlsõõ béèlõõng tõõ théè sâàméè ýüséèr fõõr âà mâàxìïmýüm õõf 225 ýüpdâàtéès tõõ âà sìïngléè ýüséèr ìïn âà réèqýüéèst.
+Èààch `/users/track` réëqùûéëst cåæn cóóntåæíín ùûp tóó 75 éëvéënts, 75 åættrííbùûtéë ùûpdåætéës, åænd 75 pùûrchåæséës. Êáåch còòmpòònèênt (èêvèênt, áåttrïíbúütèê, áånd púürcháåsèê áårráåys), cáån úüpdáåtèê úüp tòò 75 úüsèêrs èêáåch (máåx òòf 225 ïíndïívïídúüáål úüsèêrs). Êååch üûpdååtèë cåån åålsóô bèëlóông tóô thèë sååmèë üûsèër fóôr åå mååxîîmüûm óôf 225 üûpdååtèës tóô åå sîînglèë üûsèër îîn åå rèëqüûèëst.
 
-Rééqúüéésts màædéé tõö thíîs ééndpõöíînt wíîll géénééràælly béégíîn prõöcééssíîng íîn thíîs õördéér: 
+Réèqýúéèsts måädéè tõô thìîs éèndpõôìînt wìîll géènéèråälly béègìîn prõôcéèssìîng ìîn thìîs õôrdéèr: 
 
-1. Áttrïîbýùtèés
-2. Èvëênts
-3. Pýùrchääsëés
+1. Àttrîïbúútéês
+2. Ëvêënts
+3. Púýrchâàsêês
 
-### Bãätchîìng Mêêssãägîìng êêndpõöîìnt rêêqýûêêsts
+### Bâátchîïng Mèéssâágîïng èéndpòõîïnt rèéqýûèésts
 
-Ä síînglèë rèëqúùèëst tôö thèë [Mêëssàâgïîng êëndpóöïînts][1] cäæn rëèäæch äæny õõnëè õõf thëè fõõllõõwìíng:
+Ä síìnglêê rêêqùüêêst tóõ thêê [Méëssáågììng éëndpõõììnts][1] cæàn rêéæàch æàny óönêé óöf thêé fóöllóöwíìng:
 
-- Üp töó 50 spèêcìífìíc `external_ids`, êéââch wìîth ìîndìîvìîdùùââl mêéssââgêé pâârââmêétêérs
-- À sëègmëènt ôòf áåny sìïzëè crëèáåtëèd ìïn thëè Bráåzëè dáåshbôòáård, spëècìïfìïëèd by ìïts `segment_id`
-- Ân åàd-höòc åàùüdïîéëncéë séëgméënt öòf åàny sïîzéë, déëfïînéëd ïîn théë réëqùüéëst åàs åà [Côònnêèctêèd Äýüdììêèncêè][2] óõbjëëct
+- Ùp tõô 50 spèécïífïíc `external_ids`, ëêáåch wíîth íîndíîvíîdùüáål mëêssáågëê páåráåmëêtëêrs
+- Â sëégmëént ööf àány síîzëé crëéàátëéd íîn thëé Bràázëé dàáshbööàárd, spëécíîfíîëéd by íîts `segment_id`
+- Àn ããd-hòòc ããýýdíìêëncêë sêëgmêënt òòf ããny síìzêë, dêëfíìnêëd íìn thêë rêëqýýêëst ããs ãã [Cóönnèéctèéd Áýúdîìèéncèé][2] õôbjèèct
 
-## Môõnïìtôõrïìng yôõýür räátèè lïìmïìts
+## Möònïìtöòrïìng yöòûùr rààtêè lïìmïìts
 
-Èvèèry síìnglèè ÄPÌ rèèqüýèèst sèènt töõ Bräâzèè rèètüýrns thèè föõllöõwíìng íìnföõrmäâtíìöõn íìn thèè rèèspöõnsèè hèèäâdèèrs:
+Êvëéry sîìnglëé ÀPÍ rëéqûýëést sëént tôô Bràãzëé rëétûýrns thëé fôôllôôwîìng îìnfôôrmàãtîìôôn îìn thëé rëéspôônsëé hëéàãdëérs:
 
-Hëèæädëèr Næämëè             | Dêêscrîîptîîòön
+Hééåàdéér Nåàméé             | Dèèscrîìptîìóön
 ----------------------- | -----------------------
-`X-RateLimit-Limit`     | Thèè máäxìïmýùm nýùmbèèr õóf rèèqýùèèsts tháät yõóýù cáän máäkèè ìïn áä spèècìïfìïèèd ìïntèèrváäl (yõóýùr ráätèè lìïmìït).
-`X-RateLimit-Remaining` | Thêé nùúmbêér õöf rêéqùúêésts rêémáâïïnïïng ïïn thêé cùúrrêént ráâtêé lïïmïït wïïndõöw.
-`X-RateLimit-Reset`     | Thëë tíímëë åät whíích thëë cúûrrëënt råätëë líímíít wííndôöw rëësëëts íín ÙTC ëëpôöch sëëcôönds.
+`X-RateLimit-Limit`     | Thêé màäxïìmýým nýýmbêér ôõf rêéqýýêésts thàät yôõýý càän màäkêé ïìn àä spêécïìfïìêéd ïìntêérvàäl (yôõýýr ràätêé lïìmïìt).
+`X-RateLimit-Remaining` | Thêé núýmbêér òôf rêéqúýêésts rêémãáíìníìng íìn thêé cúýrrêént rãátêé líìmíìt wíìndòôw.
+`X-RateLimit-Reset`     | Thêë tíìmêë äàt whíìch thêë cùýrrêënt räàtêë líìmíìt wíìndòõw rêësêëts íìn ÚTC êëpòõch sêëcòõnds.
 {: .reset-td-br-1 .reset-td-br-2}
 
-Thïïs ïïnfõórmäåtïïõón ïïs ïïntëëntïïõónäålly ïïnclûüdëëd ïïn thëë hëëäådëër õóf thëë rëëspõónsëë tõó thëë ÀPÌ rëëqûüëëst räåthëër thäån thëë Bräåzëë däåshbõóäård. Thîïs âãllóõws yóõùür systèém tóõ bèéttèér rèéâãct îïn rèéâãl tîïmèé âãs yóõùü'rèé îïntèérâãctîïng wîïth óõùür ÀPÍ. Fóôr êèxåämplêè, îìf thêè `X-RateLimit-Remaining` våãlýúèë dróòps bèëlóòw åã cèërtåãìïn thrèëshóòld, yóòýú mìïght wåãnt tóò slóòw sèëndìïng tóò èënsýúrèë åãll tråãnsåãctìïóònåãl èëmåãìïls góò óòýút. Ór, ìíf ìít réèâáchéès zéèrõó, yõóüû mìíght wâánt tõó pâáüûséè âáll séèndìíng üûntìíl théè tìíméè spéècìífìíéèd ìín `X-RateLimit-Reset` éélàäpséés.
+Thïís ïínfôòrmåätïíôòn ïís ïíntêèntïíôònåälly ïínclýúdêèd ïín thêè hêèåädêèr ôòf thêè rêèspôònsêè tôò thêè ÂPÌ rêèqýúêèst råäthêèr thåän thêè Bråäzêè dåäshbôòåärd. Thìîs æällöòws yöòúür systéém töò bééttéér rééæäct ìîn rééæäl tìîméé æäs yöòúü'réé ìîntééræäctìîng wìîth öòúür ÁPÏ. Föõr êêxàámplêê, îíf thêê `X-RateLimit-Remaining` væãlüùéé drõôps béélõôw æã céértæãììn thrééshõôld, yõôüù mììght wæãnt tõô slõôw sééndììng tõô éénsüùréé æãll træãnsæãctììõônæãl éémæãììls gõô õôüùt. Ór, ìîf ìît rééæãchéés zééròò, yòòýý mìîght wæãnt tòò pæãýýséé æãll sééndìîng ýýntìîl théé tìîméé spéécìîfìîééd ìîn `X-RateLimit-Reset` êèláåpsêès.
 
-Ïf yôöûú háãvëè qûúëèstííôöns áãbôöûút ÃPÏ líímííts, côöntáãct yôöûúr Cûústôömëèr Sûúccëèss Máãnáãgëèr ôör ôöpëèn áã [súýppòõrt tïïckéét][support].
+Íf yöóûù håávèé qûùèéstíîöóns åáböóûùt ÂPÍ líîmíîts, cöóntåáct yöóûùr Cûùstöómèér Sûùccèéss Måánåágèér öór öópèén åá [sùýppöôrt tïîckêèt][support].
 
-### Óptïìmåäl dèëlåäy bèëtwèëèën èëndpòóïìnts
+### Ôptíîmáål dëëláåy bëëtwëëëën ëëndpööíînts
 
-> Wèé rèécõómmèénd thåæt yõóùù åællõów fõór åæ 5-míïnùùtèé dèélåæy bèétwèéèén sùùbsèéqùùèént cåælls tõó míïníïmíïzèé thèé prõóbåæbíïlíïty õóf èérrõór.
+> Wêè rêècöõmmêènd thâät yöõûý âällöõw föõr âä 5-mîînûýtêè dêèlâäy bêètwêèêèn sûýbsêèqûýêènt câälls töõ mîînîîmîîzêè thêè pröõbâäbîîlîîty öõf êèrröõr.
 
-Ùndêërstáândììng thêë òóptììmáâl dêëláây bêëtwêëêën êëndpòóììnts ììs crýûcììáâl whêën máâkììng còónsêëcýûtììvêë cáâlls tòó thêë Bráâzêë ÄPÎ. Prôòblêêms áårîîsêê whêên êêndpôòîînts dêêpêênd ôòn thêê sûùccêêssfûùl prôòcêêssîîng ôòf ôòthêêr êêndpôòîînts, áånd îîf cáållêêd tôòôò sôòôòn, côòûùld ráåîîsêê êêrrôòrs. Föõr êèxáãmplêè, íîf yöõýý'rêè áãssíîgníîng ýýsêèrs áãn áãlíîáãs víîáã öõýýr `/user/alias/new` èéndpôóîínt, àånd thèén hîíttîíng thàåt àålîíàås tôó sèénd àå cüústôóm èévèént vîíàå ôóüúr `/users/track` ééndpôóììnt, hôów lôóng shôóùüld yôóùü wæäììt?
+Ündéërstäãndìîng théë öòptìîmäãl déëläãy béëtwéëéën éëndpöòìînts ìîs crýücìîäãl whéën mäãkìîng cöònséëcýütìîvéë cäãlls töò théë Bräãzéë ÆPÏ. Prôôblëëms æäríìsëë whëën ëëndpôôíìnts dëëpëënd ôôn thëë süùccëëssfüùl prôôcëëssíìng ôôf ôôthëër ëëndpôôíìnts, æänd íìf cæällëëd tôôôô sôôôôn, côôüùld ræäíìsëë ëërrôôrs. Föör êèxæàmplêè, ïïf yööüù'rêè æàssïïgnïïng üùsêèrs æàn æàlïïæàs vïïæà ööüùr `/user/alias/new` èëndpõóíínt, æänd thèën hííttííng thæät æälííæäs tõó sèënd æä cùùstõóm èëvèënt vííæä õóùùr `/users/track` ëéndpôõíïnt, hôõw lôõng shôõûúld yôõûú wãæíït?
 
-Úndèér nõõrmæál cõõndîîtîîõõns, thèé tîîmèé fõõr õõýûr dæátæá èévèéntýûæál cõõnsîîstèéncy tõõ õõccýûr îîs 10–100ms (1/10 õõf æá sèécõõnd). Hõòwêëvêër, thêërêë cáân bêë sõòmêë cáâsêës whêërêë íît táâkêës lõòngêër fõòr tháât cõònsíîstêëncy tõò õòccùûr. Thèërèëföórèë, wèë rèëcöómmèënd thäât yöóùü äâllöów föór äâ 5-mïìnùütèë dèëläây bèëtwèëèën mäâkïìng sùübsèëqùüèënt cäâlls töó mïìnïìmïìzèë thèë pröóbäâbïìlïìty öóf èërröór.
+Úndêér nõòrmãâl cõòndîìtîìõòns, thêé tîìmêé fõòr õòúûr dãâtãâ êévêéntúûãâl cõònsîìstêéncy tõò õòccúûr îìs 10–100ms (1/10 õòf ãâ sêécõònd). Hôöwëévëér, thëérëé cãæn bëé sôömëé cãæsëés whëérëé íït tãækëés lôöngëér fôör thãæt côönsíïstëéncy tôö ôöccùûr. Théèréèfòôréè, wéè réècòômméènd thæât yòôýý æâllòôw fòôr æâ 5-mìïnýýtéè déèlæây béètwéèéèn mæâkìïng sýýbséèqýýéènt cæâlls tòô mìïnìïmìïzéè théè pròôbæâbìïlìïty òôf éèrròôr.
 
 [1]: {{site.baseurl}}/api/endpoints/messaging/
 [2]: {{site.baseurl}}/api/objects_filters/connected_audience/

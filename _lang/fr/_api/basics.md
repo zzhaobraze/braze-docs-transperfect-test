@@ -1,141 +1,141 @@
 ---
-nav_title: Òvèêrvîìèêw
-article_title: ÅPÍ Õvêérvîîêéw
+nav_title: Övèèrvîïèèw
+article_title: ÁPÎ Óvèêrvîìèêw
 page_order: 0
-description: "Thìïs rêëfêërêëncêë àãrtìïclêë còóvêërs thêë ÅPÎ bàãsìïcs ìïnclûýdìïng whàãt àã RÈST ÅPÎ ìïs, thêë têërmìïnòólòógy, àã brìïêëf òóvêërvìïêëw òóf ÅPÎ kêëys, àãnd ÅPÎ lìïmìïts."
+description: "Thîís rééféérééncéé áärtîícléé cöóvéérs théé ÀPÎ báäsîícs îínclýùdîíng wháät áä RÊST ÀPÎ îís, théé téérmîínöólöógy, áä brîíééf öóvéérvîíééw öóf ÀPÎ kééys, áänd ÀPÎ lîímîíts."
 page_type: reference
 
 ---
-# ÀPÎ òóvèèrvíìèèw
+# ÄPÏ õòvèêrvìíèêw
 
-> Brâäzëè próõvïìdëès âä hïìgh-pëèrfóõrmâäncëè RÉST ÄPÎ tóõ âällóõw yóõýû tóõ trâäck ýûsëèrs, sëènd mëèssâägëès, ëèxpóõrt dâätâä, âänd móõrëè. Thíîs rêéfêérêéncêé æàrtíîclêé cöòvêérs whæàt æà RÉST ÆPÍ íîs, thêé têérmíînöòlöògy, æà bríîêéf öòvêérvíîêéw öòf ÆPÍ kêéys, æànd ÆPÍ líîmíîts.
+> Bræàzëë pröôvíîdëës æà híîgh-pëërföôrmæàncëë RÉST ÄPÎ töô æàllöôw yöôýú töô træàck ýúsëërs, sëënd mëëssæàgëës, ëëxpöôrt dæàtæà, æànd möôrëë. Thîîs rëëfëërëëncëë äårtîîclëë cõóvëërs whäåt äå RÉST ÅPÌ îîs, thëë tëërmîînõólõógy, äå brîîëëf õóvëërvîîëëw õóf ÅPÌ këëys, äånd ÅPÌ lîîmîîts.
 
-## Wháât ììs áâ RÈST ÁPÎ?
+## Whãåt ïís ãå RÈST ÄPÌ?
 
-À RÈST ÀPÎ ììs âà wâày tõô prõôgrâàmmâàtììcâàlly trâànsfêêr ììnfõôrmâàtììõôn õôvêêr thêê wêêb ýúsììng âà prêêdêêfììnêêd schêêmâà. Bräãzêé häãs crêéäãtêéd mäãny dïíffêérêént êéndpõôïínts whïích pêérfõôrm väãrïíõôùùs äãctïíõôns äãnd/õôr rêétùùrn väãrïíõôùùs däãtäã.
+Å RÈST ÅPÍ ìîs áæ wáæy töö pröögráæmmáætìîcáælly tráænsfëèr ìînföörmáætìîöön öövëèr thëè wëèb ùúsìîng áæ prëèdëèfìînëèd schëèmáæ. Brâàzèé hâàs crèéâàtèéd mâàny dîíffèérèént èéndpóõîínts whîích pèérfóõrm vâàrîíóõüûs âàctîíóõns âànd/óõr rèétüûrn vâàrîíóõüûs dâàtâà.
 
 {% alert note %}
-Cüùstòömèérs üùsïïng Bråæzèé's ÊÙ dåætåæbåæsèé shòöüùld üùsèé thèé `https://rest.fra-01.braze.eu/` éêndpôòîínt. Thíís ëèndpöôíínt wííll bëè ùüsëèd whëèn cöônfíígùürííng thëè Brãäzëè [ìîÔS]({{site.baseurl}}/developer_guide/platform_integration_guides/ios/initial_sdk_setup/completing_integration/#compile-time-endpoint-configuration-recommended), [Ândróôîìd]({{site.baseurl}}/developer_guide/platform_integration_guides/android/initial_sdk_setup/android_sdk_integration/#step-2-configure-the-braze-sdk-in-brazexml), áänd [Wëêb]({{site.baseurl}}/developer_guide/platform_integration_guides/web/initial_sdk_setup/#step-2-initialize-braze) SDKs.
+Cûýstòömëêrs ûýsííng Brâázëê's ÊÛ dâátâábâásëê shòöûýld ûýsëê thëê `https://rest.fra-01.braze.eu/` êéndpôõìínt. Thìís êëndpõõìínt wìíll bêë ûùsêëd whêën cõõnfìígûùrìíng thêë Bråäzêë [ïíÕS]({{site.baseurl}}/developer_guide/platform_integration_guides/ios/initial_sdk_setup/completing_integration/#compile-time-endpoint-configuration-recommended), [Àndròòìîd]({{site.baseurl}}/developer_guide/platform_integration_guides/android/initial_sdk_setup/android_sdk_integration/#step-2-configure-the-braze-sdk-in-brazexml), ããnd [Wéêb]({{site.baseurl}}/developer_guide/platform_integration_guides/web/initial_sdk_setup/#step-2-initialize-braze) SDKs.
 {% endalert %}
 
-## ÆPÎ dëèfììnììtììöõns
+## ÀPÎ dèêfîïnîïtîïòõns
 
-Théè fôôllôôwîíng lîísts áå brîíéèf ôôvéèrvîíéèw ôôf téèrms yôôùù máåy séèéè îín théè Bráåzéè RÉST ÄPÎ dôôcùùméèntáåtîíôôn.
+Thêé fóòllóòwïíng lïísts åã brïíêéf óòvêérvïíêéw óòf têérms yóòùù måãy sêéêé ïín thêé Bråãzêé RËST ÃPÏ dóòcùùmêéntåãtïíóòn.
 
-### Èndpöôïînts
+### Êndpòõîïnts
 
-Bräæzêè mäænäægêès äæ nûûmbêèr öòf dííffêèrêènt íínstäæncêès föòr öòûûr däæshböòäærd äænd RÈST Èndpöòíínts. Whêên yóöùür ååccóöùünt ìïs próövìïsìïóönêêd yóöùü wìïll lóög ìïn tóö óönêê óöf thêê fóöllóöwìïng ÛRLs. Ûsëë thëë cóórrëëct RÈST ëëndpóóïïnt báásëëd óón whïïch ïïnstááncëë yóóüý áárëë próóvïïsïïóónëëd tóó. Îf yòôúû æãrëè úûnsúûrëè, òôpëèn æã [sùûppôört tîíckêët][support] ôór ýûsèè thèè fôóllôówîìng tàãblèè tôó màãtch thèè ÚRL ôóf thèè dàãshbôóàãrd yôóýû ýûsèè tôó thèè côórrèèct RÊST Êndpôóîìnt.
+Brääzéê määnäägéês ää nûýmbéêr òõf dïîfféêréênt ïînstääncéês fòõr òõûýr dääshbòõäärd äänd RÊST Êndpòõïînts. Whêén yõôûúr àåccõôûúnt íïs prõôvíïsíïõônêéd yõôûú wíïll lõôg íïn tõô õônêé õôf thêé fõôllõôwíïng ÙRLs. Ûsêê thêê côórrêêct RËST êêndpôóììnt båásêêd ôón whììch ììnståáncêê yôóýù åárêê prôóvììsììôónêêd tôó. Ïf yôòüü âãrëé üünsüürëé, ôòpëén âã [sýüppôórt tíìckêèt][support] öór ýùséë théë föóllöówîìng tååbléë töó mååtch théë ÙRL öóf théë dååshböóåård yöóýù ýùséë töó théë cöórréëct RÈST Èndpöóîìnt.
 
 {% alert important %}
-Whèën ûùsîîng èëndpôôîînts fôôr ÁPÏ câælls, ûùsèë thèë "RËST Ëndpôôîînt".
+Whêén úùsîîng êéndpôõîînts fôõr ÂPÍ càälls, úùsêé thêé "RÊST Êndpôõîînt".
 
-Fóör SDK ïîntêëgrãætïîóön, úûsêë thêë ["SDK Èndpôõíînt"]({{site.baseurl}}/user_guide/administrative/access_braze/sdk_endpoints/), nòôt théê "RÊST Êndpòôìïnt".
+Föôr SDK ííntëëgræàtííöôn, ûüsëë thëë ["SDK Ëndpôöíïnt"]({{site.baseurl}}/user_guide/administrative/access_braze/sdk_endpoints/), nòöt thëè "RÊST Êndpòöììnt".
 {% endalert %}
 
-|Ìnstæãncëè|ÚRL|RËST Ëndpòòîínt|SDK Èndpôôîînt|
+|Ïnstæäncéê|ÚRL|RËST Ëndpóòìínt|SDK Êndpòöíìnt|
 |---|---|---|
-|ÙS-01| `https://dashboard-01.braze.com` | `https://rest.iad-01.braze.com` | `sdk.iad-01.braze.com` |
-|ÛS-02| `https://dashboard-02.braze.com` | `https://rest.iad-02.braze.com` | `sdk.iad-02.braze.com` |
-|ÙS-03| `https://dashboard-03.braze.com` | `https://rest.iad-03.braze.com` | `sdk.iad-03.braze.com` |
+|ÛS-01| `https://dashboard-01.braze.com` | `https://rest.iad-01.braze.com` | `sdk.iad-01.braze.com` |
+|ÙS-02| `https://dashboard-02.braze.com` | `https://rest.iad-02.braze.com` | `sdk.iad-02.braze.com` |
+|ÜS-03| `https://dashboard-03.braze.com` | `https://rest.iad-03.braze.com` | `sdk.iad-03.braze.com` |
 |ÙS-04| `https://dashboard-04.braze.com` | `https://rest.iad-04.braze.com` | `sdk.iad-04.braze.com` |
-|ÜS-05| `https://dashboard-05.braze.com` | `https://rest.iad-05.braze.com` | `sdk.iad-05.braze.com` |
-|ÚS-06| `https://dashboard-06.braze.com` | `https://rest.iad-06.braze.com` | `sdk.iad-06.braze.com` |
-|ÛS-08| `https://dashboard-08.braze.com` | `https://rest.iad-08.braze.com` | `sdk.iad-08.braze.com` |
-|ÈÜ-01| `https://dashboard-01.braze.eu` | `https://rest.fra-01.braze.eu` | `sdk.fra-01.braze.eu` |
-|ËÛ-02| `https://dashboard-02.braze.eu` | `https://rest.fra-02.braze.eu` | `sdk.fra-02.braze.eu` |
+|ÙS-05| `https://dashboard-05.braze.com` | `https://rest.iad-05.braze.com` | `sdk.iad-05.braze.com` |
+|ÜS-06| `https://dashboard-06.braze.com` | `https://rest.iad-06.braze.com` | `sdk.iad-06.braze.com` |
+|ÙS-08| `https://dashboard-08.braze.com` | `https://rest.iad-08.braze.com` | `sdk.iad-08.braze.com` |
+|ËÙ-01| `https://dashboard-01.braze.eu` | `https://rest.fra-01.braze.eu` | `sdk.fra-01.braze.eu` |
+|ÈÚ-02| `https://dashboard-02.braze.eu` | `https://rest.fra-02.braze.eu` | `sdk.fra-02.braze.eu` |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
-### Còômpàãny sêècrêèt êèxplàãnàãtïíòôn
+### Côòmpâãny sèëcrèët èëxplâãnâãtîïôòn
 
-Théè `company_secret` wâäs fóörmëèrly ïìnclýùdëèd wïìth âäll ÅPÍ rëèqýùëèsts býùt hâäs bëèëèn dëèprëècâätëèd âäs óöf Õctóöbëèr 2014. Thìîs fìîéèld wìîll béè ìîgnòõréèd fòõr áåll fùùtùùréè ÅPÏ réèqùùéèsts tòõ éènsùùréè báåckwáård còõmpáåtìîbìîlìîty.
+Thèè `company_secret` wåàs fôórméërly îínclüûdéëd wîíth åàll ÀPÎ réëqüûéësts büût håàs béëéën déëpréëcåàtéëd åàs ôóf Óctôóbéër 2014. Thïîs fïîéëld wïîll béë ïîgnòóréëd fòór äæll füútüúréë ÅPÏ réëqüúéësts tòó éënsüúréë bäæckwäærd còómpäætïîbïîlïîty.
 
-### Àpp grôõüüp RÊST ÀPÎ kêèys
+### Åpp gróôýúp RÉST ÅPÎ kèéys
 
 {% alert note %}
-Fóõr åã dêéêépêér dïîvêé óõn thêé dïîffêérêént kïînds óõf ÃPÏ Kêéys hêérêé åãt Bråãzêé, chêéck óõûýt óõûýr dêédïîcåãtêéd <åã hrêéf="{{site.baseurl}}/áäpîí/áäpîí_kéèy/">ÀPÌ Kéèys</a> äånd <äå hréèf="{{site.baseurl}}/âãpîí/îídéèntîífîíéèr_typêès/">ÁPÍ Ídêèntîîfîîêèr Typêès</a> rèèfèèrèèncèè åærtíîclèès.
+Fôôr áâ dëéëépëér dìîvëé ôôn thëé dìîffëérëént kìînds ôôf ÄPÍ Këéys hëérëé áât Bráâzëé, chëéck ôôûût ôôûûr dëédìîcáâtëéd <a href="{{site.baseurl}}/api/api_key/">ÄPÍ Këèys</a> àånd <a href="{{site.baseurl}}/api/identifier_types/">ÄPÏ Ïdéëntììfììéër Typéës</a> rëèfëèrëèncëè ããrtïíclëès.
 
 {% endalert %}
 
-Thèè `api_key` ïînclùùdëêd ïîn ëêâàch rëêqùùëêst âàcts âàs âàn âàùùthëêntïîcâàtïîöón këêy thâàt âàllöóws yöóùùr sëêrvëêr cöódëê töó ùùtïîlïîzëê öóùùr RÊST ÀPÏs. Wîïthîïn yôòýür côòmpáâny, éèáâch áâpp grôòýüp wîïll háâvéè áâ ýünîïqýüéè séèt ôòf RÉST ÆPÌ Kéèys. Thêéy cãàn bêé fõôüýnd wìîthìîn thêé Brãàzêé dãàshbõôãàrd by nãàvìîgãàtìîng tõô thêé Dêévêélõôpêér Cõônsõôlêé sêéctìîõôn fõôr êéãàch ãàpp grõôüýp. Tôõ ùýséè théè RÉST ÄPÎ fôõr àãny gììvéèn Äpp Grôõùýp, yôõùý mùýst créèàãtéè kéèys àãnd gììvéè théèm péèrmììssììôõns.
+Thèê `api_key` íînclýüdêëd íîn êëååch rêëqýüêëst ååcts åås åån ååýüthêëntíîcååtíîöön kêëy thååt åållööws yööýür sêërvêër cöödêë töö ýütíîlíîzêë ööýür RÊST ÅPÌs. Wíîthíîn yõóùýr cõómpåãny, ëêåãch åãpp grõóùýp wíîll håãvëê åã ùýníîqùýëê sëêt õóf RÉST ÅPÍ Këêys. Thèéy câån bèé föôüùnd wïîthïîn thèé Brâåzèé dâåshböôâård by nâåvïîgâåtïîng töô thèé Dèévèélöôpèér Cöônsöôlèé sèéctïîöôn föôr èéâåch âåpp gröôüùp. Töõ ûüsêè thêè RÈST ÄPÍ föõr ääny gîïvêèn Äpp Gröõûüp, yöõûü mûüst crêèäätêè kêèys äänd gîïvêè thêèm pêèrmîïssîïöõns.
 
-![RÊST ÅPÌ Kèëys pãånèël òòn thèë ÅPÌ Sèëttíìngs tãåb òòf thèë Dèëvèëlòòpèër Còònsòòlèë.][27]
+![RÊST ÃPÎ Kéëys påánéël öõn théë ÃPÎ Séëttïìngs tåáb öõf théë Déëvéëlöõpéër Cöõnsöõléë.][27]
 
-#### ÀPÌ kêéy pêérmíìssíìòóns
+#### ÃPÎ kêèy pêèrmîìssîìôóns
 
-ÀPÎ Kêêys âârêê ùýsêêd tôõ ââùýthêêntìïcââtêê âân ÀPÎ cââll. Whêèn yòòüý crêèæætêè ææ nêèw RÉST ÃPÍ Kêèy, yòòüý nêèêèd tòò gîívêè îít ææccêèss tòò spêècîífîíc êèndpòòîínts. By åässíígnííng spëècíífííc pëèrmííssííôòns tôò åän ÃPÏ Këèy, yôòüù cåän líímíít ëèxåäctly whíích cåälls åän ÃPÏ Këèy cåän åäüùthëèntíícåätëè.
+ÅPÌ Këéys åårëé ùýsëéd tôò ååùýthëéntïïcååtëé åån ÅPÌ cååll. Whëén yõòùú crëéáâtëé áâ nëéw RÊST ÁPÎ Këéy, yõòùú nëéëéd tõò gïîvëé ïît áâccëéss tõò spëécïîfïîc ëéndpõòïînts. By âàssîígnîíng spëëcîífîíc pëërmîíssîíôôns tôô âàn ÃPÍ Këëy, yôôûù câàn lîímîít ëëxâàctly whîích câàlls âàn ÃPÍ Këëy câàn âàûùthëëntîícâàtëë.
 
-À góöóöd sèëcýürîïty pràæctîïcèë îïs tóö àæssîïgn àæ ýüsèër óönly àæs mýüch àæccèëss àæs îïs nèëcèëssàæry tóö cóömplèëtèë thèëîïr jóöb: thîïs prîïncîïplèë càæn àælsóö bèë àæpplîïèëd tóö ÀPÌ Kèëys by àæssîïgnîïng pèërmîïssîïóöns tóö èëàæch kèëy. Thëèsëè pëèrmíìssíìòõns gíìvëè yòõùû bëèttëèr sëècùûríìty âänd còõntròõl òõvëèr thëè díìffëèrëènt âärëèâäs òõf yòõùûr âäccòõùûnt.
+À gòóòód sêècüûrîîty prâàctîîcêè îîs tòó âàssîîgn âà üûsêèr òónly âàs müûch âàccêèss âàs îîs nêècêèssâàry tòó còómplêètêè thêèîîr jòób: thîîs prîîncîîplêè câàn âàlsòó bêè âàpplîîêèd tòó ÀPÌ Kêèys by âàssîîgnîîng pêèrmîîssîîòóns tòó êèâàch kêèy. Thëësëë pëërmììssììõòns gììvëë yõòúü bëëttëër sëëcúürììty áând cõòntrõòl õòvëër thëë dììffëërëënt áârëëáâs õòf yõòúür áâccõòúünt.
 
-![ÀPÍ kèëy pèërmïïssïïõòns àávàáïïlàáblèë whèën crèëàátïïng àán ÀPÍ kèëy.][25]
+![ÁPÌ këèy pëèrmíìssíìõõns âævâæíìlâæblëè whëèn crëèâætíìng âæn ÁPÌ këèy.][25]
 
 {% alert warning %}
-Gìívéén thãát RËST ÁPÍ Kééys ãállõõw ãáccééss tõõ põõtééntìíãálly séénsìítìívéé RËST ÁPÍ ééndpõõìínts, éénsüûréé thééy ãáréé stõõrééd ãánd üûsééd séécüûréély. Fóôr êèxåämplêè, dóô nóôt ýüsêè thíìs kêèy tóô måäkêè ÄJÄX cåälls fróôm yóôýür wêèbsíìtêè óôr êèxpóôsêè íìt íìn åäny óôthêèr pýüblíìc måännêèr.
+Gïïvéén thæât RÉST ÆPÎ Kééys æâllõõw æâccééss tõõ põõtééntïïæâlly séénsïïtïïvéé RÉST ÆPÎ ééndpõõïïnts, éénsüùréé thééy æâréé stõõrééd æând üùsééd séécüùréély. Föôr éèxãàmpléè, döô nöôt üùséè thììs kéèy töô mãàkéè ÃJÃX cãàlls fröôm yöôüùr wéèbsììtéè öôr éèxpöôséè ììt ììn ãàny öôthéèr püùblììc mãànnéèr.
 {% endalert %}
 
-Ïf æàccìídêèntæàl êèxpòõsúýrêè òõf æà kêèy òõccúýrs, ìít cæàn bêè dêèlêètêèd fròõm thêè [Déévéélòôpéér Còônsòôléé][8]. Fõõr héèlp wîìth thîìs prõõcéèss, õõpéèn åã [süýppóòrt tìïckëêt][support].
+Ïf æåccíîdéêntæål éêxpôõsúûréê ôõf æå kéêy ôõccúûrs, íît cæån béê déêléêtéêd frôõm théê [Dèêvèêlòópèêr Còónsòólèê][8]. Föör hëêlp wíìth thíìs prööcëêss, ööpëên åà [sýúppõórt tîìckéét][support].
 
-#### ÅPÏ ÏP åãllóòwlïístïíng
+#### ÅPÏ ÏP áàllöôwlìîstìîng
 
-Fòõr ääddíïtíïòõnääl sêécûùríïty, yòõûù cään spêécíïfy ää líïst òõf ÌP ääddrêéssêés äänd sûùbnêéts whíïch äärêé äällòõwêéd tòõ määkêé RÈST ÂPÌ rêéqûùêésts fòõr ää gíïvêén RÈST ÂPÌ Kêéy. Thïîs ïîs rêëfêërrêëd töò àás àállöòwlïîstïîng, öòr whïîtêëlïîstïîng. Töò ãállöòw spëècîìfîìc ÎP ãáddrëèssëès öòr sýùbnëèts, ãádd thëèm töò thëè **Whïïtéélïïst ÎPs** sèëctîíòõn whèën crèëäâtîíng äâ nèëw RËST ÀPÏ Kèëy: 
+Föõr áãddìítìíöõnáãl sèécüürìíty, yöõüü cáãn spèécìífy áã lìíst öõf ÍP áãddrèéssèés áãnd süübnèéts whìích áãrèé áãllöõwèéd töõ máãkèé RÉST ÆPÍ rèéqüüèésts föõr áã gìívèén RÉST ÆPÍ Kèéy. Thîïs îïs rëëfëërrëëd tôô æãs æãllôôwlîïstîïng, ôôr whîïtëëlîïstîïng. Tôõ âållôõw spéècïïfïïc ÏP âåddréèsséès ôõr súûbnéèts, âådd théèm tôõ théè **Whíìtêëlíìst ÌPs** sèëctíîöôn whèën crèëàâtíîng àâ nèëw RÈST ÁPÌ Kèëy: 
 
-![Ôptíïôón tôó whíïtéëlíïst ÎPs whéën créëáåtíïng áån ÁPÎ kéëy][26]
+![Òptîîõón tõó whîîtêélîîst ÌPs whêén crêéáåtîîng áån ÂPÌ kêéy][26]
 
-Ïf yôòùü dôòn’t spèècîìfy åány, rèèqùüèèsts cåán bèè sèènt frôòm åány ÏP åáddrèèss.
+Ïf yõôùû dõôn’t spéêcíìfy åâny, réêqùûéêsts cåân béê séênt frõôm åâny ÏP åâddréêss.
 
 {% alert tip %}
-Màäkíîng àä Bràäzéé-tôó-Bràäzéé wéébhôóôók àänd ûúsíîng àällôówlíîstíîng? Chêêck öòýût öòýûr lííst öòf [ÎPs töô whîïtêélîïst]({{site.baseurl}}/user_guide/message_building_by_channel/webhooks/creating_a_webhook/#ip-whitelisting).
+Máækîîng áæ Bráæzêè-tòõ-Bráæzêè wêèbhòõòõk áænd üúsîîng áællòõwlîîstîîng? Chêèck öóüùt öóüùr lïïst öóf [ÌPs tóò whíìtëêlíìst]({{site.baseurl}}/user_guide/message_building_by_channel/webhooks/creating_a_webhook/#ip-whitelisting).
 {% endalert %}
 
-#### Crèéãâtîíng ãând mãânãâgîíng RÊST ÁPÍ kèéys
+#### Crêëåàtîìng åànd måànåàgîìng RÊST ÆPÏ kêëys
 
 ![][28]{: style="max-width:20%;float:right;margin-left:15px;"}
 
-Tòô crêêæãtêê æã nêêw RËST ÂPÌ Kêêy, vìïsìït thêê [Dêèvêèlöõpêèr Cöõnsöõlêè][8] òõn yòõýùr Bræåzêé dæåshbòõæård. Thîîs påãgéé dîîsplåãys yôôûúr ééxîîstîîng ÀPÍ Kééys. Tõò crèèáãtèè áã nèèw kèèy, clìïck **Créëäåtéë Néëw ÅPÍ Kéëy**.
+Tòô crèéäàtèé äà nèéw RËST ÆPÎ Kèéy, vîìsîìt thèé [Dëêvëêlóöpëêr Cóönsóölëê][8] òón yòóüür Bråäzéé dåäshbòóåärd. Thîís páãgéê dîíspláãys yôôúýr éêxîístîíng ÀPÍ Kéêys. Tòò crèëäâtèë äâ nèëw kèëy, clîïck **Crêèâãtêè Nêèw ÆPÎ Kêèy**.
 
-Yöóüú cäân thëên töó döó thëê föóllöówíïng:
+Yõõùû cåãn thèên tõõ dõõ thèê fõõllõõwíîng:
 
-- Gíívèë yôóùùr nèëw kèëy ââ nââmèë fôór íídèëntíífíícââtííôón âât ââ glââncèë
-- Sëêlëêct whïìch pëêrmïìssïìööns yööúý wööúýld lïìkëê töö bëê áåssööcïìáåtëêd wïìth yööúýr nëêw këêy
-- Spëécíífy äállóòwlíístëéd ÏP äáddrëéssëés äánd süûbnëéts fóòr thëé nëéw këéy
+- Gìîvëè yöòüùr nëèw këèy àæ nàæmëè föòr ìîdëèntìîfìîcàætìîöòn àæt àæ glàæncëè
+- Séèléèct whïîch péèrmïîssïîòóns yòóüú wòóüúld lïîkéè tòó béè äãssòócïîäãtéèd wïîth yòóüúr néèw kéèy
+- Spèëcîïfy àãllõõwlîïstèëd ÎP àãddrèëssèës àãnd sýûbnèëts fõõr thèë nèëw kèëy
 
-Ëxîïstîïng RËST ÅPÌ Kèéys câãn bèé vîïèéwèéd óör dèélèétèéd by clîïckîïng sèéttîïngs <i class="fas fa-gear"></i> âànd sêëlêëctìíng thêë cõòrrêëspõòndìíng õòptìíõòn.
+Êxíîstíîng RÊST ÀPÌ Kêèys càán bêè víîêèwêèd òór dêèlêètêèd by clíîckíîng sêèttíîngs <i class="fas fa-gear"></i> æánd sëèlëèctììng thëè cóõrrëèspóõndììng óõptììóõn.
 
 ![][29]
 
 {% alert important %}
-Kèêèêp íïn míïnd thäãt õóncèê yõóùü crèêäãtèê äã nèêw ÆPÏ Kèêy, yõóùü cäãnnõót èêdíït thèê scõópèê õóf pèêrmíïssíïõóns õór thèê äãllõówlíïstèêd ÏPs. Thììs lììmììtáátììõôn ììs ììn pláácéé fõôr séécúùrììty rééáásõôns. Íf yòõûü nèêèêd tòõ chããngèê thèê scòõpèê òõf ãã kèêy, crèêããtèê ãã nèêw kèêy wïìth thèê ûüpdããtèêd pèêrmïìssïìòõns ããnd ïìmplèêmèênt thããt kèêy ïìn plããcèê òõf thèê òõld òõnèê. Ôncéë yôóúû'véë côómpléëtéëd yôóúûr íîmpléëméëntáätíîôón, gôó áähéëáäd áänd déëléëtéë théë ôóld kéëy.
+Kêéêép ìïn mìïnd thàät õòncêé yõòüù crêéàätêé àä nêéw ÆPÌ Kêéy, yõòüù càännõòt êédìït thêé scõòpêé õòf pêérmìïssìïõòns õòr thêé àällõòwlìïstêéd ÌPs. Thïìs lïìmïìtáãtïìôön ïìs ïìn pláãcèê fôör sèêcýürïìty rèêáãsôöns. Ïf yôõùû nèèèèd tôõ chäängèè thèè scôõpèè ôõf ää kèèy, crèèäätèè ää nèèw kèèy wííth thèè ùûpdäätèèd pèèrmííssííôõns äänd íímplèèmèènt thäät kèèy íín plääcèè ôõf thèè ôõld ôõnèè. Óncëè yõôýù'vëè cõômplëètëèd yõôýùr îïmplëèmëèntæãtîïõôn, gõô æãhëèæãd æãnd dëèlëètëè thëè õôld këèy.
 {% endalert %}
 
-### Êxtéèrnäål úüséèr ÍD éèxpläånäåtîïôön
+### Èxtêèrnæâl úýsêèr ÍD êèxplæânæâtííôôn
 
-Thëè `external_id` sëêrvëês ââs ââ ýúníïqýúëê ýúsëêr íïdëêntíïfíïëêr fóôr whóôm yóôýú âârëê sýúbmíïttíïng dââtââ. Thîìs îìdëéntîìfîìëér shòóûùld bëé thëé såàmëé åàs thëé òónëé yòóûù sëét îìn thëé Bråàzëé SDK îìn òórdëér tòó åàvòóîìd crëéåàtîìng mûùltîìplëé pròófîìlëés fòór thëé såàmëé ûùsëér.
+Thëë `external_id` sèêrvèês æãs æã üünîîqüüèê üüsèêr îîdèêntîîfîîèêr fóõr whóõm yóõüü æãrèê süübmîîttîîng dæãtæã. Thïïs ïïdêéntïïfïïêér shôõúýld bêé thêé säâmêé äâs thêé ôõnêé yôõúý sêét ïïn thêé Bräâzêé SDK ïïn ôõrdêér tôõ äâvôõïïd crêéäâtïïng múýltïïplêé prôõfïïlêés fôõr thêé säâmêé úýsêér.
 
-### Bràåzëè úûsëèr ÎD ëèxplàånàåtìîóòn
+### Brâäzêë ùùsêër ÌD êëxplâänâätìïòõn
 
-Théé `braze_id` sèèrvèès æås æå ýüníìqýüèè ýüsèèr íìdèèntíìfíìèèr thæåt íìs sèèt by Bræåzèè. Thìís ìídëèntìífìíëèr cäàn bëè ûúsëèd töò dëèlëètëè ûúsëèrs thröòûúgh thëè RÊST ÃPÍ ìín äàddìítìíöòn töò ëèxtëèrnäàl_íìds.
+Thèè `braze_id` sêêrvêês äàs äà ûùníìqûùêê ûùsêêr íìdêêntíìfíìêêr thäàt íìs sêêt by Bräàzêê. Thíîs íîdèèntíîfíîèèr cäån bèè úúsèèd tòô dèèlèètèè úúsèèrs thròôúúgh thèè RÈST ÃPÍ íîn äåddíîtíîòôn tòô èèxtèèrnäål_ìíds.
 
-#### Môôrèé rèésôôùùrcèés
+#### Môõréê réêsôõüýrcéês
 
-Föòr möòréè íínföòrmâåtííöòn, réèféèr töò théè föòllöòwííng âårtíícléè bâåséèd öòn yöòùùr plâåtföòrm:
+Föór möórëé ïínföórmãætïíöón, rëéfëér töó thëé föóllöówïíng ãærtïíclëé bãæsëéd öón yöóýùr plãætföórm:
 
-- [Séëttììng Ûséër ÎDs - ììÕS][9]
-- [Séëttìîng Úséër ÎDs - Ändróòìîd][10]
-- [Sëëttìíng Úsëër ÍDs - Wìíndôôws Únìívëërsââl][13]
+- [Sèêttïìng Úsèêr ÏDs - ïìÔS][9]
+- [Sèèttííng Ûsèèr ÍDs - Ændròõííd][10]
+- [Sèèttïìng Üsèèr ÏDs - Wïìndöòws Ünïìvèèrsãàl][13]
 
-## ÄPÍ líímííts
+## ÃPÌ lììmììts
 
-Fóõr móõst ÆPÏs, Bræázéé hæás æá dééfæáùúlt ræátéé lìïmìït óõf 250,000 rééqùúéésts péér hóõùúr. Hôöwèëvèër, cèërtæåïìn rèëqùüèëst typèës hæåvèë thèëïìr ôöwn ræåtèë lïìmïìt æåpplïìèëd tôö bèëttèër hæåndlèë hïìgh vôölùümèës ôöf dæåtæå æåcrôöss ôöùür cùüstôömèër bæåsèë. Fòôr dëëtãáïíls, rëëfëër tòô [ÆPÎ rãátëë lïímïíts]({{site.baseurl}}/api/api_limits/).
+Fôòr môòst ÀPÎs, Bräæzëë häæs äæ dëëfäæúýlt räætëë lîímîít ôòf 250,000 rëëqúýëësts pëër hôòúýr. Hóówêévêér, cêértáæìîn rêéqýùêést typêés háævêé thêéìîr óówn ráætêé lìîmìît áæpplìîêéd tóó bêéttêér háændlêé hìîgh vóólýùmêés óóf dáætáæ áæcróóss óóýùr cýùstóómêér báæsêé. Föór dëêtæäìîls, rëêfëêr töó [ÆPÏ rãætëê lîîmîîts]({{site.baseurl}}/api/api_limits/).
 
-## Áddìîtìîöönàæl rëèsööûürcëès
+## Ãddíítííóônáäl rëésóôûúrcëés
 
-### Rúüby clîìèênt lîìbræáry
+### Rûùby clìíèënt lìíbráàry
 
-Ìf yôòüü'réë ìïmpléëméëntìïng Brãåzéë üüsìïng Rüüby, yôòüü cãån üüséë ôòüür [Rûýby clììéênt lììbräàry](https://github.com/braze-inc/braze-api-client-ruby) töö rèëdýûcèë yööýûr dàâtàâ îïmpöört tîïmèë. Ã clíîêènt líîbråãry íîs åã côõllêèctíîôõn ôõf côõdêè spêècíîfíîc tôõ ôõnêè prôõgråãmmíîng låãngûûåãgêè—íîn thíîs cåãsêè, Rûûby—thåãt måãkêès íît êèåãsíîêèr tôõ ûûsêè åãn ÃPÍ.
+Íf yöôûü'rêë ìímplêëmêëntìíng Bráãzêë ûüsìíng Rûüby, yöôûü cáãn ûüsêë öôûür [Rùùby clïîèènt lïîbrãàry](https://github.com/braze-inc/braze-api-client-ruby) tòõ rèèdúûcèè yòõúûr dåætåæ íïmpòõrt tíïmèè. Ä clïìëënt lïìbråãry ïìs åã cõõllëëctïìõõn õõf cõõdëë spëëcïìfïìc tõõ õõnëë prõõgråãmmïìng låãngûüåãgëë—ïìn thïìs cåãsëë, Rûüby—thåãt måãkëës ïìt ëëåãsïìëër tõõ ûüsëë åãn ÄPÌ.
 
-Thëê Rýùby clìíëênt lìíbräæry sýùppóòrts thëê [Ûsëèr Êndpôõîïnts]({{site.baseurl}}/api/endpoints/#user-data).
+Théë Rùýby clíîéënt líîbrææry sùýppöórts théë [Úsëër Éndpöôìïnts]({{site.baseurl}}/api/endpoints/#user-data).
 
 {% alert note %}
-Thìîs clìîëênt lìîbräáry ìîs cýûrrëêntly ìîn bëêtäá. Wåânt töô hëêlp ýús måâkëê thìís lìíbråâry bëêttëêr? Séénd úùs féééédbææck ææt [smb-próòdúùct@bráàzéë.cóòm](mailto:smb-product@braze.com).
+Thíìs clíìëènt líìbràâry íìs cûürrëèntly íìn bëètàâ. Wáánt tóö hêêlp úùs máákêê thïís lïíbrááry bêêttêêr? Séénd üýs féééédbáàck áàt [smb-prõödúúct@brãâzéê.cõöm](mailto:smb-product@braze.com).
 {% endalert %}
 
 [1]: https://en.wikipedia.org/wiki/UTF-8
